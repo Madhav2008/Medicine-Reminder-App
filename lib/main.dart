@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
-  // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
 
   final String title;
