@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          // to see the wireframe for each widget.
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
