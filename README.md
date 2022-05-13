@@ -1,1 +1,1 @@
-# Medicine Reminder
+# Medicine Reminder App
