@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
-  // This class is the configuration for the state. It holds the values (in this
   // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
 
