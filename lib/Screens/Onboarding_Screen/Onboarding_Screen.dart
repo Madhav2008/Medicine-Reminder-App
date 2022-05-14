@@ -88,8 +88,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     child: Text(
                       "Get started now",
                       style: TextStyle(
-                            color: Colors.white,
-                          ),
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                 ),
