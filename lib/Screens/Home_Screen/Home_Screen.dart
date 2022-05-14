@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   //init notifications
   // Future initNotifies() async => flutterLocalNotificationsPlugin =
-      // await _notifications.initNotifies(context);
+  // await _notifications.initNotifies(context);
 
   //--------------------GET ALL DATA FROM DATABASE---------------------
   Future setData() async {
@@ -133,28 +133,28 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: deviceHeight * 0.03),
                 // dailyPills.isEmpty
-                    // ? 
-                    SizedBox(
-                        width: double.infinity,
-                        height: 100,
-                        child: WavyAnimatedTextKit(
-                          textStyle: TextStyle(
-                            fontSize: 32.0,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black,
-                          ),
-                          text: ["Loading..."],
-                          isRepeatingAnimation: true,
-                          speed: Duration(milliseconds: 150),
-                        ),
-                      )
-                    // : 
-                    // Text('hi'),
-                    // MedicinesList(
-                    //     dailyPills,
-                    //     setData,
-                    //     flutterLocalNotificationsPlugin,
-                    //   )
+                // ?
+                SizedBox(
+                  width: double.infinity,
+                  height: 100,
+                  child: WavyAnimatedTextKit(
+                    textStyle: TextStyle(
+                      fontSize: 32.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    text: ["Loading..."],
+                    isRepeatingAnimation: true,
+                    speed: Duration(milliseconds: 150),
+                  ),
+                )
+                // :
+                // Text('hi'),
+                // MedicinesList(
+                //     dailyPills,
+                //     setData,
+                //     flutterLocalNotificationsPlugin,
+                //   )
               ],
             ),
           ),
