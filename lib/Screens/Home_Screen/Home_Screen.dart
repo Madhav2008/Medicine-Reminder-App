@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   //===============================================================
 
   //--------------------| List of Pills from database |----------------------
-  List<Pill> allListOfPills = List<Pill>();
+  // List<Pill> allListOfPills = List<Pill>();
   final Repository _repository = Repository();
   // List<Pill> dailyPills = List<Pill>();
   //=========================================================================
