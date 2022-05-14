@@ -15,7 +15,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          children: [],
+          children: [SizedBox(
+              height: deviceHeight * 0.04,
+            )],
         ),
       ),
     );
