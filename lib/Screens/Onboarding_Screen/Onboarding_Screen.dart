@@ -12,7 +12,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(),
+        child: Column(
+          children: [],
+        ),
       ),
     );
   }
