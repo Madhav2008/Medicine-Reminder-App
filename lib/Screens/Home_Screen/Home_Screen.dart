@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animated_widgets/animated_widgets.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter/material.dart';
+import 'package:medicine_reminder_app/Screens/Add_Medicine_Screen/Add_Medicine_Screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -59,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final Widget addButton = FloatingActionButton(
       elevation: 2.0,
       onPressed: () async {
-        Navigator.push(context, MaterialPageRoute(builder: (builder)))
+        Navigator.push(context, MaterialPageRoute(builder: (builder)=>AddMedicineScreen()))
         // await Navigator.pushNamed(context, "/add_new_medicine")
         //     .then((_) => setData());
       },
