@@ -37,7 +37,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         // AutoSizeText(
                         Text(
                       "Be in control of your meds",
-                      style: Theme.of(context).textTheme.headline1!.copyWith(
+                      style: TextStyle(
                             color: Colors.black,
                             height: 1.3,
                           ),
