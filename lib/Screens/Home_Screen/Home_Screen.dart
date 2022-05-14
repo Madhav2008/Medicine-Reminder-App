@@ -110,16 +110,16 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        // ShakeAnimatedWidget(
-                        //   enabled: true,
-                        //   duration: Duration(milliseconds: 2000),
-                        //   curve: Curves.linear,
-                        //   shakeAngle: Rotation.deg(z: 30),
-                        //   child: Icon(
-                        //     Icons.notifications_none,
-                        //     size: 42.0,
-                        //   ),
-                        // ),
+                        ShakeAnimatedWidget(
+                          enabled: true,
+                          duration: Duration(milliseconds: 2000),
+                          curve: Curves.linear,
+                          shakeAngle: Rotation.deg(z: 30),
+                          child: Icon(
+                            Icons.notifications_none,
+                            size: 42.0,
+                          ),
+                        ),
                       ],
                     ),
                   ),
