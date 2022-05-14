@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           "Journal",
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize:30,
+                            fontSize: 30,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
