@@ -103,7 +103,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Text(
                           "Journal",
-                          style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                         ShakeAnimatedWidget(
                           enabled: true,
