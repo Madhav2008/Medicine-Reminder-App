@@ -14,8 +14,8 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 2.0,
       onPressed: () async {
         //refresh the pills from database
-        await Navigator.pushNamed(context, "/add_new_medicine")
-            .then((_) => setData());
+        // await Navigator.pushNamed(context, "/add_new_medicine")
+        //     .then((_) => setData());
       },
       child: Icon(
         Icons.add,
