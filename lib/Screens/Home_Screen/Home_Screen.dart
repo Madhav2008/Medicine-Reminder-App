@@ -103,10 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Text(
                           "Journal",
-                          style: Theme.of(context)
-                              .textTheme
-                              .headline1
-                              .copyWith(color: Colors.black),
+                          style: TextStyle(color: Colors.black),
                         ),
                         ShakeAnimatedWidget(
                           enabled: true,
