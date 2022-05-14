@@ -61,10 +61,11 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 2.0,
       onPressed: () async {
         Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (builder) => AddMedicineScreen(),
-            ),);
+          context,
+          MaterialPageRoute(
+            builder: (builder) => AddMedicineScreen(),
+          ),
+        );
         // await Navigator.pushNamed(context, "/add_new_medicine")
         //     .then((_) => setData());
       },
