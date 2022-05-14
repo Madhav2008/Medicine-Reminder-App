@@ -133,7 +133,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: deviceHeight * 0.03),
                 dailyPills.isEmpty
-                    ? SizedBox(
+                    ? 
+                    SizedBox(
                         width: double.infinity,
                         height: 100,
                         child: WavyAnimatedTextKit(
