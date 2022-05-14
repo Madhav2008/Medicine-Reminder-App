@@ -87,7 +87,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   child: Center(
                     child: Text(
                       "Get started now",
-                      style: Theme.of(context).textTheme.headline3!.copyWith(
+                      style: TextStyle(
                             color: Colors.white,
                           ),
                     ),
