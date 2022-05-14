@@ -71,7 +71,12 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       floatingActionButton: addButton,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      backgroundColor: Color.fromRGBO(248, 248, 248, 1,),
+      backgroundColor: Color.fromRGBO(
+        248,
+        248,
+        248,
+        1,
+      ),
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
