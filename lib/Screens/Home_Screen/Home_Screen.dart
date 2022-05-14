@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   //handle last choose day index in calendar
   int _lastChooseDay = 0;
-  
+
   @override
   void initState() {
     super.initState();
@@ -64,6 +64,8 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       backgroundColor: Theme.of(context).primaryColor,
     );
+    final double deviceHeight =
+        MediaQuery.of(context).size.height - MediaQuery.of(context).padding.top;
     return Scaffold(
       floatingActionButton: addButton,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
