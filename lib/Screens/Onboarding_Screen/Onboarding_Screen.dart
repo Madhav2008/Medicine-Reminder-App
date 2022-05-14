@@ -35,7 +35,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     padding: const EdgeInsets.only(left: 40.0, right: 40.0),
                     child: 
                     // AutoSizeText(
-                    // Text(
+                    Text(
                       "Be in control of your meds",
                       style: Theme.of(context).textTheme.headline1!.copyWith(
                             color: Colors.black,
