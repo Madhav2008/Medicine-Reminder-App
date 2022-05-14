@@ -18,7 +18,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           children: [
             SizedBox(
               height: deviceHeight * 0.04,
-            )
+            ),
           ],
         ),
       ),
