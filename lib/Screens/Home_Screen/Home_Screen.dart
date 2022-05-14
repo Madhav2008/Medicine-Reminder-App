@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    initNotifies();
+    // initNotifies();
     setData();
     // _daysList = _days.getCurrentDays();
   }
