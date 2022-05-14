@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           textStyle: TextStyle(
                               fontSize: 32.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.black),
+                              color: Colors.black,),
                           text: ["Loading..."],
                           isRepeatingAnimation: true,
                           speed: Duration(milliseconds: 150),
