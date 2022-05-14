@@ -148,7 +148,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       )
                     : 
-                    Text(''),
+                    Text('hi'),
                     // MedicinesList(
                     //     dailyPills,
                     //     setData,
