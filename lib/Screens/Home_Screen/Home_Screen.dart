@@ -27,7 +27,98 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: addButton,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       backgroundColor: Color.fromRGBO(248, 248, 248, 1),
-      body: SingleChildScrollView(),
+      body: SingleChildScrollView(child: SafeArea(
+          child: Padding(
+            padding: EdgeInsets.only(
+                top: 0.0, left: 25.0, right: 25.0, bottom: 20.0),
+            child: Column(
+              children: [
+                SizedBox(
+                  height: deviceHeight * 0.04,
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 5.0),
+                  child: Container(
+                    alignment: Alignment.topCenter,
+                    height: deviceHeight * 0.1,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Journal",
+                          style: Theme.of(context)
+                              .textTheme
+                              .headline1
+                              .copyWith(color: Colors.black),
+                        ),
+                        ShakeAnimatedWidget(
+                          enabled: true,
+                          duration: Duration(milliseconds: 2000),
+                          curve: Curves.linear,
+                          shakeAngle: Rotation.deg(z: 30),
+                          child: Icon(
+                            Icons.notifications_none,
+                            size: 42.0,
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: deviceHeight * 0.01,
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 5.0),
+                  child: Calendar(chooseDay,_daysList),
+                ),
+                SizedBox(height: deviceHeight * 0.03),
+                dailyPills.isEmpty
+                    ? SizedBox(
+                        width: double.infinity,
+                        height: 100,
+                        child: WavyAnimatedTextKit(
+                          textStyle: TextStyle(
+                              fontSize: 32.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                          text: [
+                            "Loading..."
+                          ],
+                          isRepeatingAnimation: true,
+                          speed: Duration(milliseconds: 150),
+                        ),
+                      )
+                    : MedicinesList(dailyPills,setData,flutterLocalNotificationsPlugin)
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
+
+
+  //-------------------------| Click on the calendar day |-------------------------
+
+  void chooseDay(CalendarDayModel clickedDay){
+    setState(() {
+      _lastChooseDay = _daysList.indexOf(clickedDay);
+      _daysList.forEach((day) => day.isChecked = false );
+      CalendarDayModel chooseDay = _daysList[_daysList.indexOf(clickedDay)];
+      chooseDay.isChecked = true;
+      dailyPills.clear();
+      allListOfPills.forEach((pill) {
+        DateTime pillDate = DateTime.fromMicrosecondsSinceEpoch(pill.time * 1000);
+        if(chooseDay.dayNumber == pillDate.day && chooseDay.month == pillDate.month && chooseDay.year == pillDate.year){
+          dailyPills.add(pill);
+        }
+      });
+      dailyPills.sort((pill1,pill2) => pill1.time.compareTo(pill2.time));
+    });
+  }
+
+  //===============================================================================
+
+
 }
