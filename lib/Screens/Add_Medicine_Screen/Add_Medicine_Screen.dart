@@ -15,7 +15,8 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         title: Text(
           'Add Medicine',
           style: TextStyle(
-            fontSize: 25,color: Colors.black,
+            fontSize: 25,
+            color: Colors.black,
           ),
         ),
       ),
