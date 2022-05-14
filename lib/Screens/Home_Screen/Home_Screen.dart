@@ -43,13 +43,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   //--------------------GET ALL DATA FROM DATABASE---------------------
   Future setData() async {
-    allListOfPills.clear();
-    (await _repository.getAllData("Pills")).forEach((pillMap) {
-      allListOfPills.add(
-        Pill().pillMapToObject(pillMap),
-      );
-    });
-    chooseDay(_daysList[_lastChooseDay]);
+    // allListOfPills.clear();
+    // (await _repository.getAllData("Pills")).forEach((pillMap) {
+    //   allListOfPills.add(
+    //     Pill().pillMapToObject(pillMap),
+    //   );
+    // });
+    // chooseDay(_daysList[_lastChooseDay]);
   }
   //===================================================================
 
