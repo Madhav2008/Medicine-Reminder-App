@@ -38,7 +38,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       style: Theme.of(context)
                           .textTheme
                           .headline1!
-                          .copyWith(color: Colors.black, height: 1.3),
+                          .copyWith(color: Colors.black, height: 1.3,),
                       textAlign: TextAlign.center,
                       maxLines: 2,
                     ),
