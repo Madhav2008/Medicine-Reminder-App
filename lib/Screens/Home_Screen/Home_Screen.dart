@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   //init notifications
-  Future initNotifies() async => flutterLocalNotificationsPlugin =
+  // Future initNotifies() async => flutterLocalNotificationsPlugin =
       await _notifications.initNotifies(context);
 
   //--------------------GET ALL DATA FROM DATABASE---------------------
