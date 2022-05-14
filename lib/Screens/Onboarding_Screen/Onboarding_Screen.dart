@@ -38,7 +38,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         Text(
                       "Be in control of your meds",
                       style: TextStyle(
-                        height: 1.3,
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                       ),
