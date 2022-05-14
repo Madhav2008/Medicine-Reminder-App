@@ -84,13 +84,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     // );
                   },
                   color: Theme.of(context).primaryColor,
-                  child: FittedBox(
-                    child: Text(
-                      "Get started now",
-                      style: Theme.of(context).textTheme.headline3!.copyWith(
-                            color: Colors.white,
-                          ),
-                    ),
+                  child: Text(
+                    "Get started now",
+                    style: Theme.of(context).textTheme.headline3!.copyWith(
+                          color: Colors.white,
+                        ),
                   ),
                 ),
               ),
