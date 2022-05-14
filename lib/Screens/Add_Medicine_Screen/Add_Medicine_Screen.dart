@@ -12,7 +12,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Medicine'),
+        title: Text('Add Medicine', style: TextStyle(),),
       ),
     );
   }
