@@ -81,7 +81,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             .copyWith(color: Colors.white),
                       ),
                     ),
-                  )),
+                  ),),
             ),
           ],
         ),
