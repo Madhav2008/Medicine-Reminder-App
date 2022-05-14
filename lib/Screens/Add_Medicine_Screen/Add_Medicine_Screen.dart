@@ -14,7 +14,9 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       appBar: AppBar(
         title: Text(
           'Add Medicine',
-          style: TextStyle(fontSize: 25,),
+          style: TextStyle(
+            fontSize: 25,
+          ),
         ),
       ),
     );
