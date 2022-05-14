@@ -89,6 +89,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       "Get started now",
                       style: TextStyle(
                         color: Colors.white,
+                        fontSize: 20
                       ),
                     ),
                   ),
