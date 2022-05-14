@@ -74,7 +74,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       context,
                       MaterialPageRoute(
                         builder: (context) => HomeScreen(),
-                      )),
+                      ),),
                   color: Theme.of(context).primaryColor,
                   buttonChild: FittedBox(
                     child: Text(
