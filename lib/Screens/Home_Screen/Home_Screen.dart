@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   //=========================================================================
 
   //-----------------| Calendar days |------------------
-  final CalendarDayModel _days = CalendarDayModel();
+  // final CalendarDayModel _days = CalendarDayModel();
   // List<CalendarDayModel> _daysList;
   //====================================================
 
