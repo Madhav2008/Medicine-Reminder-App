@@ -35,10 +35,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     padding: const EdgeInsets.only(left: 40.0, right: 40.0),
                     child: AutoSizeText(
                       "Be in control of your meds",
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline1!
-                          .copyWith(color: Colors.black, height: 1.3,),
+                      style: Theme.of(context).textTheme.headline1!.copyWith(
+                            color: Colors.black,
+                            height: 1.3,
+                          ),
                       textAlign: TextAlign.center,
                       maxLines: 2,
                     ),
