@@ -26,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   //handle last choose day index in calendar
   int _lastChooseDay = 0;
+  
   @override
   void initState() {
     super.initState();
