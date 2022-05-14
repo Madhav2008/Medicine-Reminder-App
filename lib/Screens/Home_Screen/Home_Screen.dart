@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     initNotifies();
     setData();
-    _daysList = _days.getCurrentDays();
+    // _daysList = _days.getCurrentDays();
   }
 
   //init notifications
