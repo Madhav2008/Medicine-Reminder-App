@@ -147,8 +147,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           speed: Duration(milliseconds: 150),
                         ),
                       )
-                    // : MedicinesList(
-                    //     dailyPills, setData, flutterLocalNotificationsPlugin)
+                    : MedicinesList(
+                        dailyPills, setData, flutterLocalNotificationsPlugin)
               ],
             ),
           ),
