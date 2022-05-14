@@ -8,7 +8,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  
   //-------------------| Flutter notifications |-------------------
   final Notifications _notifications = Notifications();
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
