@@ -40,6 +40,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
+                        height:1.3,
                       ),
                       textAlign: TextAlign.center,
                       maxLines: 2,
