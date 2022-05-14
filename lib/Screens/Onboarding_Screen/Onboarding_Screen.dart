@@ -63,13 +63,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
             SizedBox(
               height: deviceHeight * 0.03,
-            ),Container(
+            ),
+            Container(
               height: deviceHeight * 0.09,
               width: double.infinity,
               child: Padding(
                   padding: const EdgeInsets.only(left: 35.0, right: 35.0),
                   child: PlatformFlatButton(
-                    handler: goToHomeScreen ,
+                    handler: goToHomeScreen,
                     color: Theme.of(context).primaryColor,
                     buttonChild: FittedBox(
                       child: Text(
