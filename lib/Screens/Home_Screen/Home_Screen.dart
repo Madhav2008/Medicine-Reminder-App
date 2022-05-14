@@ -146,9 +146,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           isRepeatingAnimation: true,
                           speed: Duration(milliseconds: 150),
                         ),
-                      )
-                    : MedicinesList(
-                        dailyPills, setData, flutterLocalNotificationsPlugin)
+                      ):null
+                    // : MedicinesList(
+                    //     dailyPills, setData, flutterLocalNotificationsPlugin)
               ],
             ),
           ),
