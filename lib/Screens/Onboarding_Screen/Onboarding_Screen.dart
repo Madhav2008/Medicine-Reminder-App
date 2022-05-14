@@ -74,7 +74,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 35.0, right: 35.0),
                 child: PlatformFlatButton(
-                  handler: Navigator.pushReplacement(
+                  handler:
+                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
                       builder: (context) => HomeScreen(),
