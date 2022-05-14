@@ -78,7 +78,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       style: Theme.of(context)
                           .textTheme
                           .headline3!
-                          .copyWith(color: Colors.white),
+                          .copyWith(color: Colors.white,),
                     ),
                   ),
                 ),
