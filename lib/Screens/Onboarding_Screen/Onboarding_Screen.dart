@@ -20,7 +20,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               height: deviceHeight * 0.04,
             ),
             Image.asset(
-              'assets/images/welcome_image.png',
+              '../assets/images/welcome_image.png',
               width: double.infinity,
               height: deviceHeight * 0.4,
             ),
