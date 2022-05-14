@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     final double deviceHeight =
         MediaQuery.of(context).size.height - MediaQuery.of(context).padding.top;
-        
+
     return Scaffold(
       floatingActionButton: addButton,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: SafeArea(
           child: Padding(
             padding: EdgeInsets.only(
-                top: 0.0, left: 25.0, right: 25.0, bottom: 20.0),
+                top: 0.0, left: 25.0, right: 25.0, bottom: 20.0,),
             child: Column(
               children: [
                 SizedBox(
