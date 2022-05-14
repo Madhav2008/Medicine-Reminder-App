@@ -20,7 +20,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.transparent,
         elevation: 0,
       ),
     );
