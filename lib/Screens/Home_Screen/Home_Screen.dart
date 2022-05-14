@@ -148,11 +148,11 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       )
                     : 
-                    MedicinesList(
-                        dailyPills,
-                        setData,
-                        flutterLocalNotificationsPlugin,
-                      )
+                    // MedicinesList(
+                    //     dailyPills,
+                    //     setData,
+                    //     flutterLocalNotificationsPlugin,
+                    //   )
               ],
             ),
           ),
