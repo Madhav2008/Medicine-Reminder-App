@@ -22,7 +22,9 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
-        iconTheme: IconThemeData(color: Colors.black,),
+        iconTheme: IconThemeData(
+          color: Colors.black,
+        ),
       ),
     );
   }
