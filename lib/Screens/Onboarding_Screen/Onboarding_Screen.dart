@@ -73,7 +73,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               width: double.infinity,
               child: Padding(
                 padding: const EdgeInsets.only(left: 35.0, right: 35.0),
-                child: PlatformFlatButton(
+                child: FlatButton(
                   // handler: Navigator.pushReplacement(
                   //   context,
                   //   MaterialPageRoute(
