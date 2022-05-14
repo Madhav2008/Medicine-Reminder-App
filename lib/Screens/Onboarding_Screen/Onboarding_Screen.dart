@@ -75,10 +75,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   buttonChild: FittedBox(
                     child: Text(
                       "Get started now",
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline3!
-                          .copyWith(color: Colors.white,),
+                      style: Theme.of(context).textTheme.headline3!.copyWith(
+                            color: Colors.white,
+                          ),
                     ),
                   ),
                 ),
