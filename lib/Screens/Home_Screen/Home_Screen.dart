@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
             context,
             MaterialPageRoute(
               builder: (builder) => AddMedicineScreen(),
-            ));
+            ),);
         // await Navigator.pushNamed(context, "/add_new_medicine")
         //     .then((_) => setData());
       },
