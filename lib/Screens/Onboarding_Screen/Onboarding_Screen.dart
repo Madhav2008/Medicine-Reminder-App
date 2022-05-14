@@ -82,12 +82,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     //   ),
                     // );
                   },
-                  // handler: Navigator.pushReplacement(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (context) => HomeScreen(),
-                  //   ),
-                  // ),
                   color: Theme.of(context).primaryColor,
                   child: FittedBox(
                     child: Text(
