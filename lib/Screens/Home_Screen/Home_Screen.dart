@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Icons.notifications_none,
                             size: 42.0,
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
