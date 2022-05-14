@@ -37,7 +37,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       "Be in control of your meds",
                       style: Theme.of(context)
                           .textTheme
-                          .headline1
+                          .headline1!
                           .copyWith(color: Colors.black, height: 1.3),
                       textAlign: TextAlign.center,
                       maxLines: 2,
