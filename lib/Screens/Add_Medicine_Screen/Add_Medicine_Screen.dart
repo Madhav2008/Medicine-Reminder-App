@@ -21,6 +21,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           ),
         ),
         backgroundColor: Colors.white,
+        
       ),
     );
   }
