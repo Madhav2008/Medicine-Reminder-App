@@ -23,7 +23,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               '../assets/images/welcome_image.png',
               width: double.infinity,
               height: deviceHeight * 0.4,
-            ),SizedBox(
+            ),
+            SizedBox(
               height: deviceHeight * 0.05,
             ),
           ],
