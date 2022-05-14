@@ -136,9 +136,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         height: 100,
                         child: WavyAnimatedTextKit(
                           textStyle: TextStyle(
-                              fontSize: 32.0,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,),
+                            fontSize: 32.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
+                          ),
                           text: ["Loading..."],
                           isRepeatingAnimation: true,
                           speed: Duration(milliseconds: 150),
