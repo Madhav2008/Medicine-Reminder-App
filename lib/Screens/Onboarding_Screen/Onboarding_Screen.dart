@@ -18,7 +18,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           children: [
             SizedBox(
               height: deviceHeight * 0.04,
-            ),Image.asset('assets/images/welcome_image.png',
+            ),
+            Image.asset('assets/images/welcome_image.png',
                 width: double.infinity, height: deviceHeight * 0.4),
           ],
         ),
