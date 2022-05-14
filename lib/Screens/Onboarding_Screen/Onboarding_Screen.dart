@@ -77,7 +77,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       "Get started now",
                       style: Theme.of(context)
                           .textTheme
-                          .headline3
+                          .headline3!
                           .copyWith(color: Colors.white),
                     ),
                   ),
