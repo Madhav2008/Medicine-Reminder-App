@@ -189,7 +189,7 @@ class _HomeScreenState extends State<HomeScreen> {
         if (chooseDay.dayNumber == pillDate.day &&
             chooseDay.month == pillDate.month &&
             chooseDay.year == pillDate.year) {
-          dailyPills.add(pill);
+          // dailyPills.add(pill);
         }
       });
       dailyPills.sort((pill1, pill2) => pill1.time.compareTo(pill2.time));
