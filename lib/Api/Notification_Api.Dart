@@ -6,6 +6,6 @@ class NotificationApi {
   static Future showNotification({
     int id = 0,
     String? title,
-    String? body,String? payload
+    String? body,String? payload,
   })
 }
