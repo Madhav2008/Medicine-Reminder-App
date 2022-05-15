@@ -195,7 +195,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         name: 'Metafen',
                         info: '2 capsules',
                         time: '18:00',
-                      )
+                      ),
               ],
             ),
           ),
