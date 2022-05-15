@@ -1,4 +1,3 @@
-
 class MedicineModel {
   final String avatar;
   final String name;
