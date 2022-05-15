@@ -9,7 +9,7 @@ class MedicineCard extends StatefulWidget {
     required this.time,
   }) : super(key: key);
 
-  final Image avatar;
+  final String avatar;
   final String name;
   final String info;
   final String time;
