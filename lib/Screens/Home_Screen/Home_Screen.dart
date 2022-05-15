@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     year: 2022,
     month: 5,
   );
-  isLoading = true;
+  bool isLoading = true;
   Future setData() async {
     // allListOfPills.clear();
     // (await _repository.getAllData("Pills")).forEach((pillMap) {
