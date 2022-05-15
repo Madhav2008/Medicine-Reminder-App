@@ -96,6 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
                 ),
                 SizedBox(height: deviceHeight * 0.03),
+                Future.delayed(duration)
                 SizedBox(
                   width: double.infinity,
                   // height: 100,
