@@ -10,19 +10,19 @@ class MedicineModel {
     required this.info,
     required this.time,
   });
-
-  List<MedicineModel> dummyData = [
-    MedicineModel(
-      avatar: '../assets/images/syrup.png',
-      name: 'Polopiryna',
-      info: '10 Syrup',
-      time: '17:05',
-    ),
-    MedicineModel(
-      avatar: '../assets/images/capsule.png',
-      name: 'Metafen',
-      info: '1 Capsule',
-      time: '18:00',
-    ),
-  ];
 }
+
+List<MedicineModel> dummyData = [
+  MedicineModel(
+    avatar: '../assets/images/syrup.png',
+    name: 'Polopiryna',
+    info: '10 Syrup',
+    time: '17:05',
+  ),
+  MedicineModel(
+    avatar: '../assets/images/capsule.png',
+    name: 'Metafen',
+    info: '1 Capsule',
+    time: '18:00',
+  ),
+];
