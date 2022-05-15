@@ -10,6 +10,6 @@ class NotificationApi {
     String? payload,
   }) async =>
       _notifications.show(
-        id,title,body,await _notificationDetails()
+        id,title,body,await _notificationDetails(),
       )
 }
