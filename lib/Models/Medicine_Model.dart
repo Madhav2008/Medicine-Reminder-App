@@ -15,7 +15,7 @@ class MedicineModel {
 
   List<MedicineModel> medicines = [
     MedicineModel(
-      avatar: '../assets/images/',
+      avatar: '../assets/images/syrup.png',
       name: 'Polopiryna',
       info: '10 Syrup',
       time: '17:05',
