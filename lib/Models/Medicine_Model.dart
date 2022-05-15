@@ -18,7 +18,7 @@ class MedicineModel {
       avatar: '../assets/images/',
       name: '',
       info: 'info',
-      time: time,
+      time: 'time',
     ),
     MedicineModel(
       avatar: '../assets/images/capsule.png',
