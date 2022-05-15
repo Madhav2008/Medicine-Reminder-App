@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 class MedicineCard extends StatelessWidget {
 
-  final Pill medicine;
+  // final Pill medicine;
   final medicine;
   final Function setData;
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
