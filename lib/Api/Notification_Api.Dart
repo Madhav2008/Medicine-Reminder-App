@@ -4,7 +4,10 @@ class NotificationApi {
   static final _notifications = FlutterLocalNotificationsPlugin();
 
   static Future _notificationDetails() async {
-    return NotificationDetails();
+    return NotificationDetails(
+      android: 
+      iOS: 
+    );
   }
 
   static Future showNotification({
