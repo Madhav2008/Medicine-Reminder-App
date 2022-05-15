@@ -193,7 +193,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     : MedicineCard(
                         avatar: '../assets/images/capsule.png',
                         name: 'Metafen',
-                        info: '2 capsules',
+                        info: '1 Capsule',
                         time: '18:00',
                       ),
               ],
