@@ -157,21 +157,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: deviceHeight * 0.03,
                 ),
                 isLoading
-                    ? ListView.builder(
-                        itemCount: medi.length,
-                        itemBuilder: (context, i) {
-                          return MedicineCard(
-                            avatar: medi[i].avatar,
-                            info: medi[i].info,
-                            name: medi[i].name,
-                            time: medi[i].time,
-                          );
-                        },
-                      )
-                    // isEmpty
-                    //     ? Lottie.network(
-                    //         'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
-                    //       )
+                    ? isEmpty
+                        ? Lottie.network(
+                            'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                          )
                         : SizedBox(
                             width: double.infinity,
                             // height: 100,
