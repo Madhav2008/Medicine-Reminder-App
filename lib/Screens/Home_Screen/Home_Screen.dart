@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animated_widgets/animated_widgets.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:medicine_reminder_app/Screens/Add_Medicine_Screen/Add_Medicine_Screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -100,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 100,
                   child: Column(
                     children: [
-                      
+                      Lottie.network
                       WavyAnimatedTextKit(
                         textStyle: TextStyle(
                           fontSize: 32.0,
