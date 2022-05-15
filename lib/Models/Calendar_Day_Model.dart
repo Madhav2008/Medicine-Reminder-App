@@ -10,7 +10,7 @@ class CalendarDayModel {
   CalendarDayModel({
     required this.dayLetter,
     required this.dayNumber,
-    this.year,
+    required this.year,
     required this.month,
     this.isChecked,
   });
