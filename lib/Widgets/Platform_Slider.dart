@@ -9,7 +9,7 @@ class PlatformSlider extends StatelessWidget {
 
   PlatformSlider(
       {required this.value,
-      @required this.handler,
+      required this.handler,
       @required this.color,
       @required this.max,
       @required this.min,
