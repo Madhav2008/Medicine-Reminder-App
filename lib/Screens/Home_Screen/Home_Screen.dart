@@ -208,7 +208,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       return ChatScreen(
                         avatar: medi[i].avatar,
                         name: medi[i].name,
-                        phoneno: medi[i].phoneno,
+                        phoneno: medi[i].info,
                         about: medi[i].about,
                         // user: medi[i].name,
                         // sourceChat: sourceChat,
