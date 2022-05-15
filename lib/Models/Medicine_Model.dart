@@ -4,5 +4,4 @@ class MedicineModel {
   final String name;
   final String name;
   final String name;
-  
 }
