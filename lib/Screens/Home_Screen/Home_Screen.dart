@@ -191,7 +191,97 @@ class _HomeScreenState extends State<HomeScreen> {
                           );
                         },
                       )
-                    : 
+                    : ListView.builder(
+      itemCount: dummyData.length,
+      itemBuilder: (context, i) {
+        return Column(
+          children: <Widget>[
+            Divider(
+              thickness: 1,
+            ),
+            ListTile(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (BuildContext context) {
+                      return ChatScreen(
+                        avatar: dummyData[i].avatarUrl,
+                        name: dummyData[i].name,
+                        phoneno: dummyData[i].phoneno,
+                        about: dummyData[i].about,
+                        // user: dummyData[i].name,
+                        // sourceChat: sourceChat,
+                        // chatModels: chatModels,
+                      );
+                    },
+                  ),
+                );
+              },
+              leading: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (builder) => ViewProfilePhoto(
+                        name: dummyData[i].name,
+                        avatar: dummyData[i].avatarUrl,
+                      ),
+                    ),
+                  );
+                },
+                child: CircleAvatar(
+                  foregroundColor: Theme.of(context).primaryColor,
+                  backgroundColor: grey,
+                  backgroundImage: NetworkImage(dummyData[i].avatarUrl),
+                ),
+              ),
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text(
+                    dummyData[i].name,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    dummyData[i].time,
+                    style: TextStyle(
+                      color: grey,
+                      fontSize: 14.0,
+                    ),
+                  ),
+                ],
+              ),
+              subtitle: Container(
+                padding: EdgeInsets.only(top: 5.0),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.done_all,
+                      size: 20,
+                      color: blue,
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Text(
+                      dummyData[i].message,
+                      style: TextStyle(
+                        color: grey,
+                        fontSize: 15.0,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
                     // ListView.builder(
                     //     itemCount: medi.length,
                     //     itemBuilder: (context, i) {
