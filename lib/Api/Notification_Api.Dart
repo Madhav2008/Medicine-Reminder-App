@@ -19,7 +19,7 @@ class NotificationApi {
     final settings = InitializationSettings(
       android: android,
      iOS: iOS,
-     );
+    );
 
     await _notifications.initialize(
       settings,
