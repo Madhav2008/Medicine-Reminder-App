@@ -175,20 +175,24 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-  void chooseDay(CalendarDayModel clickedDay){
+
+  void chooseDay(CalendarDayModel clickedDay) {
     setState(() {
       _lastChooseDay = _daysList.indexOf(clickedDay);
-      _daysList.forEach((day) => day.isChecked = false );
+      _daysList.forEach((day) => day.isChecked = false);
       CalendarDayModel chooseDay = _daysList[_daysList.indexOf(clickedDay)];
       chooseDay.isChecked = true;
       dailyPills.clear();
       allListOfPills.forEach((pill) {
-        DateTime pillDate = DateTime.fromMicrosecondsSinceEpoch(pill.time * 1000);
-        if(chooseDay.dayNumber == pillDate.day && chooseDay.month == pillDate.month && chooseDay.year == pillDate.year){
+        DateTime pillDate =
+            DateTime.fromMicrosecondsSinceEpoch(pill.time * 1000);
+        if (chooseDay.dayNumber == pillDate.day &&
+            chooseDay.month == pillDate.month &&
+            chooseDay.year == pillDate.year) {
           dailyPills.add(pill);
         }
       });
-      dailyPills.sort((pill1,pill2) => pill1.time.compareTo(pill2.time));
+      dailyPills.sort((pill1, pill2) => pill1.time.compareTo(pill2.time));
     });
   }
 }
