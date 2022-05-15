@@ -11,7 +11,7 @@ class PlatformSlider extends StatelessWidget {
       {required this.value,
       required this.handler,
       required this.color,
-      @required this.max,
+      required this.max,
       @required this.min,
       @required this.divisions});
 
