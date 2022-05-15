@@ -4,6 +4,7 @@ class NotificationApi {
   static final _notifications = FlutterLocalNotificationsPlugin();
 
   static Future showNotification({
-    int id = 0,String? title,
+    int id = 0,
+    String? title,
   })
 }
