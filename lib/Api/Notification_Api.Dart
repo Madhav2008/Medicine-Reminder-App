@@ -15,5 +15,5 @@ class NotificationApi {
         body,
         await _notificationDetails(),
         payload = payload,
-      )
+      );
 }
