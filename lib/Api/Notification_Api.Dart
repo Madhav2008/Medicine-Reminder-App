@@ -16,6 +16,7 @@ class NotificationApi {
   }
 
   static Future init({bool initScheduled = false,}) async {
+    final settings = 
     await _notifications.initialize(
       settings,
       onSelectNotification: (payload) async {}
