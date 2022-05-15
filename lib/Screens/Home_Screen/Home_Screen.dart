@@ -17,9 +17,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-
   List<CalendarDayModel> _daysList;
-  
+
   @override
   void initState() {
     super.initState();
@@ -117,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
-                  child: Calendar(chooseDay,_daysList),
+                  child: Calendar(chooseDay, _daysList),
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
