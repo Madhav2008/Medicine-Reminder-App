@@ -5,7 +5,7 @@ class NotificationApi {
 
   static Future _notificationDetails() async {
     return NotificationDetails(
-      android: 
+      android: IOSNotificationDetails(),
       iOS: IOSNotificationDetails(),
     );
   }
