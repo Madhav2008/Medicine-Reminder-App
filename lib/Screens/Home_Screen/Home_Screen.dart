@@ -269,7 +269,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       medi[i].name,
                       style: TextStyle(
-                        color: grey,
+                        color: Colors.grey,
                         fontSize: 15.0,
                         overflow: TextOverflow.ellipsis,
                       ),
