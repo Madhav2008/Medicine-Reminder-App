@@ -20,6 +20,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _lastChooseDay = 0;
   final dailyPills = [];
+  final flutterLocalNotificationsPlugin;
   final CalendarDayModel _days = CalendarDayModel(
     dayLetter: 'Sunday',
     dayNumber: 15,
@@ -30,10 +31,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Future setData() async {
     // allListOfPills.clear();
     // (await _repository.getAllData("Pills")).forEach((pillMap) {
-      // allListOfPills.add(Pill().pillMapToObject(pillMap));
+    // allListOfPills.add(Pill().pillMapToObject(pillMap));
     // });
     chooseDay(_daysList[_lastChooseDay]);
   }
+
   late List<CalendarDayModel> _daysList;
 
   @override
