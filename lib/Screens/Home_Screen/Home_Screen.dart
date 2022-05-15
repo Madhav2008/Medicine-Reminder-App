@@ -24,7 +24,8 @@ class _HomeScreenState extends State<HomeScreen> {
     var _duration = new Duration(seconds: 2);
     return new Timer(
       _duration,
-      (() => Lottie.network('https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json')),
+      (() => Lottie.network(
+          'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json')),
     );
   }
 
@@ -111,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
                 ),
                 SizedBox(height: deviceHeight * 0.03),
-                FutureBuilder(builder: (context, index){}),
+                FutureBuilder(builder: (context, index) {}),
               ],
             ),
           ),
