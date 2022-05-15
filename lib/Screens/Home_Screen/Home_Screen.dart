@@ -267,7 +267,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 5,
                     ),
                     Text(
-                      medi[i].message,
+                      medi[i].name,
                       style: TextStyle(
                         color: grey,
                         fontSize: 15.0,
