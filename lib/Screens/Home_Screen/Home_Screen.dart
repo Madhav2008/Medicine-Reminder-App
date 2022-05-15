@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
     var _duration = new Duration(seconds: 2);
     return new Timer(
       _duration,
-      (() => Lottie.network('url')),
+      (() => Lottie.network('https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json')),
     );
   }
 
