@@ -206,7 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   MaterialPageRoute(
                     builder: (BuildContext context) {
                       return ChatScreen(
-                        avatar: medi[i].avatarUrl,
+                        avatar: medi[i].avatar,
                         name: medi[i].name,
                         phoneno: medi[i].phoneno,
                         about: medi[i].about,
