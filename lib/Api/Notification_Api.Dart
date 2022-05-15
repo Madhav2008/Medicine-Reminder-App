@@ -15,6 +15,8 @@ class NotificationApi {
     );
   }
 
+  static Future init({bool})
+
   static Future showNotification({
     int id = 0,
     String? title,
