@@ -233,7 +233,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: CircleAvatar(
                   foregroundColor: Theme.of(context).primaryColor,
                   backgroundColor: Colors.grey,
-                  backgroundImage: NetworkImage(medi[i].avatarUrl),
+                  backgroundImage: NetworkImage(medi[i].avatar),
                 ),
               ),
               title: Row(
