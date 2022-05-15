@@ -18,12 +18,12 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 2.0,
       onPressed: () {
         NotificationApi.show
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (builder) => AddMedicineScreen(),
-          ),
-        );
+        // Navigator.push(
+        //   context,
+        //   MaterialPageRoute(
+        //     builder: (builder) => AddMedicineScreen(),
+        //   ),
+        // );
       },
       child: Icon(
         Icons.add,
