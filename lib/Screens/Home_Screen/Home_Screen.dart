@@ -17,12 +17,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<CalendarDayModel> _daysList;
+  late List<CalendarDayModel> _daysList;
 
   @override
   void initState() {
     super.initState();
     startTime();
+    _daysList = _days.getCurrentDays();
   }
 
   startTime() async {
