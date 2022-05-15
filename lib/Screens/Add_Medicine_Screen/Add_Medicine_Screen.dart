@@ -47,12 +47,12 @@ import '../../screens/add_new_medicine/medicine_type_card.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
-class AddNewMedicine extends StatefulWidget {
+class AddMedicineScreen extends StatefulWidget {
   @override
-  _AddNewMedicineState createState() => _AddNewMedicineState();
+  _AddMedicineScreenState createState() => _AddMedicineScreenState();
 }
 
-class _AddNewMedicineState extends State<AddNewMedicine> {
+class _AddMedicineScreenState extends State<AddMedicineScreen> {
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
 
   final _scaffoldKey = GlobalKey<ScaffoldState>();
