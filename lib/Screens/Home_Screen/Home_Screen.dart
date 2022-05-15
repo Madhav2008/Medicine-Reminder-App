@@ -196,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         itemBuilder: (context, i) {
                           return MedicineCard(
                             avatar: medi[i].avatar,
-                            info: medi[i].avatar,
+                            info: medi[i].info,
                             name: medi[i].avatar,
                             time: medi[i].avatar,
                           );
