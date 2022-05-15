@@ -10,7 +10,7 @@ class MedicineCard extends StatefulWidget {
   }) : super(key: key);
 
   final String avatar;
-  final String avatar;
+  final String name;
   final String avatar;
   final String avatar;
 
