@@ -8,7 +8,7 @@ class CalendarDayModel {
   bool isChecked;
 
   CalendarDayModel({
-    this.dayLetter,
+    required this.dayLetter,
     this.dayNumber,
     this.year,
     this.month,
