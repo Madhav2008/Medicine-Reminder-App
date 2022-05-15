@@ -38,6 +38,7 @@ dependencies:
   animated_widgets: 
   flutter_local_notifications: 
   lottie: 
+  intl: 
 
 dev_dependencies:
   flutter_test:
