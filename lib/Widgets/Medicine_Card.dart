@@ -33,7 +33,7 @@ class _MedicineCardState extends State<MedicineCard> {
             ),
           ),
           Text(
-            dummyData[i].time,
+            widget.time,
             style: TextStyle(
               color: grey,
               fontSize: 14.0,
