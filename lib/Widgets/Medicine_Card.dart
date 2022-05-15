@@ -36,7 +36,7 @@ class MedicineCard extends StatelessWidget {
             ),
             subtitle: Text(
               "${medicine.amount} ${medicine.medicineForm}",
-              style: Theme.of(context).textTheme.headline5.copyWith(
+              style: Theme.of(context).textTheme.headline5!.copyWith(
                   color: Colors.grey[600],
                   fontSize: 15.0,
                   decoration: isEnd ? TextDecoration.lineThrough : null),
