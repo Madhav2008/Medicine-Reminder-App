@@ -32,7 +32,7 @@ class _MedicineCardState extends State<MedicineCard> {
             style: TextStyle(
               fontWeight: FontWeight.w900,
               fontSize: 20,
-              letterSpacing: 2,
+              letterSpacing: 1,
             ),
           ),
           Text(
