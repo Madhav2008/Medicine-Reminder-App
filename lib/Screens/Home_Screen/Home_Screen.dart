@@ -195,7 +195,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         itemCount: mediciness.length,
                         itemBuilder: (context, i) {
                           return MedicineCard(
-                            avatar: '', info: '',
+                            avatar: '',
+                            info: '',
                           );
                         },
                       ),
