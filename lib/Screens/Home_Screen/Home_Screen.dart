@@ -197,7 +197,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           return MedicineCard(
                             avatar: '',
                             info: '',
-                            name: '',
+                            name: '', time: '',
                           );
                         },
                       ),
