@@ -13,5 +13,5 @@ class MedicineModel {
     required this.time,
   });
 
-  List<MedicineModel> medicines=[]
+  List<MedicineModel> medicines = [];
 }
