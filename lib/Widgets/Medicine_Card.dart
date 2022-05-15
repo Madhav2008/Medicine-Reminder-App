@@ -10,7 +10,7 @@ class MedicineCard extends StatefulWidget {
 class _MedicineCardState extends State<MedicineCard> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Card(
       
     );
   }
