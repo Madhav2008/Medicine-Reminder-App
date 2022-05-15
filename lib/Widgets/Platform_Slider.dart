@@ -7,13 +7,14 @@ class PlatformSlider extends StatelessWidget {
   final Function handler;
   final Color color;
 
-  PlatformSlider(
-      {required this.value,
-      required this.handler,
-      required this.color,
-      required this.max,
-      required this.min,
-      required this.divisions,});
+  PlatformSlider({
+    required this.value,
+    required this.handler,
+    required this.color,
+    required this.max,
+    required this.min,
+    required this.divisions,
+  });
 
   @override
   Widget build(BuildContext context) {
