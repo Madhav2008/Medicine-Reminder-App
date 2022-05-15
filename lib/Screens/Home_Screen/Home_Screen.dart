@@ -14,11 +14,7 @@ import 'package:medicine_reminder_app/Widgets/Medicine_Card.dart';
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
+ 
   int _lastChooseDay = 0;
   final dailyPills = [];
   final CalendarDayModel _days = CalendarDayModel(
