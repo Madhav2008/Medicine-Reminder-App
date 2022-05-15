@@ -126,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         );
       },
-    );,
+    ),
                   builder: (context, index) {
                     return SizedBox(
                       width: double.infinity,
