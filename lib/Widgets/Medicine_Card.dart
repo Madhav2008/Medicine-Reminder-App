@@ -23,7 +23,24 @@ class _MedicineCardState extends State<MedicineCard> {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Image.asset(widget.avatar),
-      
+      title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text(
+                    dummyData[i].name,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    dummyData[i].time,
+                    style: TextStyle(
+                      color: grey,
+                      fontSize: 14.0,
+                    ),
+                  ),
+                ],
+              ),
     );
   }
 }
