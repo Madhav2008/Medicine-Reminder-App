@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 100,
                   child: Column(
                     children: [
-                      Lottie.network()
+                      Lottie.network(),
                       WavyAnimatedTextKit(
                         textStyle: TextStyle(
                           fontSize: 32.0,
