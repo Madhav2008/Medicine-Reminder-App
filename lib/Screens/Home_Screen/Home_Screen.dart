@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   startTime() async {
     var _duration = new Duration(seconds: 2);
-    return new Timer(_duration, (() => Lottie.network('url'))
+    return new Timer(_duration, (() => Lottie.network('url')));
   }
 
   @override
