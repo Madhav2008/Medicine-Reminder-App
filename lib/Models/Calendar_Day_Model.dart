@@ -12,7 +12,7 @@ class CalendarDayModel {
     required this.dayNumber,
     required this.year,
     required this.month,
-    this.isChecked,
+    required this.isChecked,
   });
 
   //----------------| get current 7 days |----------------------
