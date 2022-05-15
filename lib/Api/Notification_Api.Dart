@@ -14,5 +14,6 @@ class NotificationApi {
         title,
         body,
         await _notificationDetails(),
+        payload = payload
       )
 }
