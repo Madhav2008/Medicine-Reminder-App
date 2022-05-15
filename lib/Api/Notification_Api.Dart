@@ -3,7 +3,9 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 class NotificationApi {
   static final _notifications = FlutterLocalNotificationsPlugin();
 
-  static Future _notificationDetails() async {}
+  static Future _notificationDetails() async {
+    return NotificationDetails
+  }
 
   static Future showNotification({
     int id = 0,
