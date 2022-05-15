@@ -12,7 +12,7 @@ class MedicineCard extends StatefulWidget {
   final String avatar;
   final String name;
   final String info;
-  final String avatar;
+  final String time;
 
   @override
   State<MedicineCard> createState() => _MedicineCardState();
