@@ -4,7 +4,7 @@ class NotificationApi {
   static final _notifications = FlutterLocalNotificationsPlugin();
 
   static Future _notificationDetails() async {
-    return NotificationDetails()
+    return NotificationDetails();
   }
 
   static Future showNotification({
