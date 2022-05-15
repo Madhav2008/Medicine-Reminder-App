@@ -167,7 +167,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             time: medi[i].time,
                           );
                         },
-                      ),
+                      )
                     // isEmpty
                     //     ? Lottie.network(
                     //         'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
