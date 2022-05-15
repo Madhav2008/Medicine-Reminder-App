@@ -27,6 +27,13 @@ class _HomeScreenState extends State<HomeScreen> {
     year: 2022,
     month: 5,
   );
+  Future setData() async {
+    allListOfPills.clear();
+    (await _repository.getAllData("Pills")).forEach((pillMap) {
+      allListOfPills.add(Pill().pillMapToObject(pillMap));
+    });
+    chooseDay(_daysList[_lastChooseDay]);
+  }
   late List<CalendarDayModel> _daysList;
 
   @override
