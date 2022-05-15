@@ -21,7 +21,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _lastChooseDay = 0;
   final dailyPills = [];
-  var flutterLocalNotificationsPlugin;
   final CalendarDayModel _days = CalendarDayModel(
     dayLetter: 'Sunday',
     dayNumber: 15,
