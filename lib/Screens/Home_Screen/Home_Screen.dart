@@ -225,7 +225,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     MaterialPageRoute(
                       builder: (builder) => ViewProfilePhoto(
                         name: medi[i].name,
-                        avatar: medi[i].avatarUrl,
+                        avatar: medi[i].avatar,
                       ),
                     ),
                   );
