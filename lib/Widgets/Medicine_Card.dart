@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MedicineCard extends StatefulWidget {
-  const MedicineCard({Key? key, required this.image}) : super(key: key);
+  const MedicineCard({Key? key, required this.avatar}) : super(key: key);
 
   @override
   State<MedicineCard> createState() => _MedicineCardState();
