@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class MedicineType {
+class MedicineModel {
   String name;
   Widget image;
   bool isChoose;
