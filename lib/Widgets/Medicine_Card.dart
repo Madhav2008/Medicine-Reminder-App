@@ -100,8 +100,8 @@ class MedicineCard extends StatelessWidget {
                   child: Text("Delete",
                       style: TextStyle(color: Theme.of(context).primaryColor)),
                   onPressed: () async {
-                    await Repository().deleteData('Pills', medicineId);
-                    await Notifications().removeNotify(notifyId, flutterLocalNotificationsPlugin);
+                    // await Repository().deleteData('Pills', medicineId);
+                    // await Notifications().removeNotify(notifyId, flutterLocalNotificationsPlugin);
                     setData();
                     Navigator.pop(context);
                   },
