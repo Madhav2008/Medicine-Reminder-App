@@ -6,6 +6,9 @@ class MedicineModel {
   final String name;
 
   MedicineModel({
-    required this.name
+    required this.avatar,
+    required this.name,
+    required this.info,
+    required this.time,
   });
 }
