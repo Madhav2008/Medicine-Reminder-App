@@ -248,7 +248,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     medi[i].time,
                     style: TextStyle(
-                      color: grey,
+                      color: Colors.grey,
                       fontSize: 14.0,
                     ),
                   ),
