@@ -42,6 +42,19 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     startTime();
     _daysList = _days.getCurrentDays();
+    Future.delayed(
+      Duration(
+        seconds: 1,
+      ),
+      () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => LandingPage(),
+          ),
+        );
+      },
+    );
   }
 
   startTime() async {
