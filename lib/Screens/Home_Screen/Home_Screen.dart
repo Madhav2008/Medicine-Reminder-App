@@ -184,11 +184,11 @@ class _HomeScreenState extends State<HomeScreen> {
       chooseDay.isChecked = true;
       // dailyPills.clear();
       // allListOfPills.forEach((pill) {
-        DateTime pillDate =
-            DateTime.fromMicrosecondsSinceEpoch(pill.time * 1000);
-        if (chooseDay.dayNumber == pillDate.day &&
-            chooseDay.month == pillDate.month &&
-            chooseDay.year == pillDate.year) {
+        // DateTime pillDate =
+        //     DateTime.fromMicrosecondsSinceEpoch(pill.time * 1000);
+        // if (chooseDay.dayNumber == pillDate.day &&
+        //     chooseDay.month == pillDate.month &&
+        //     chooseDay.year == pillDate.year) {
           // dailyPills.add(pill);
         }
       });
