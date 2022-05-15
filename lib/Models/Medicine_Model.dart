@@ -5,5 +5,5 @@ class MedicineModel {
   final String name;
   final String name;
 
-  MedicineModel({})
+  MedicineModel({});
 }
