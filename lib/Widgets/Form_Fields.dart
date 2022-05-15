@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:medicine_reminder_app/Widgets/Slider.dart';
 
 class FormFields extends StatelessWidget {
   final List<String> weightValues = ["pills", "ml", "mg"];
