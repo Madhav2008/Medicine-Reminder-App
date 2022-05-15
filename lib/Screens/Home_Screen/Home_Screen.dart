@@ -103,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       Lottie.network(
                           'https://assets4.lottiefiles.com/packages/lf20_acxgzi0c.json',
-                          width: 200),
+                          width: 200,),
                       WavyAnimatedTextKit(
                         textStyle: TextStyle(
                           fontSize: 32.0,
