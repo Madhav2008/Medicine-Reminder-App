@@ -16,7 +16,7 @@ class NotificationApi {
   }
 
   static Future init({bool initScheduled = false,}) async {
-    final android = AndroidInitializationSettings();
+    final android = AndroidInitializationSettings('@mipmap');
     final iOS = IOSInitializationSettings();
     final settings = InitializationSettings(
       android: android,
