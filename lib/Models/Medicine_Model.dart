@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 
 class MedicineModel {
+  final String avatar;
   final String name;
-  final String name;
-  final String name;
+  final String info;
+  final String time;
 
   MedicineModel({
     required this.avatar,
