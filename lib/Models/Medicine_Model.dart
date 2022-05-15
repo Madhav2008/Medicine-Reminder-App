@@ -12,7 +12,7 @@ class MedicineModel {
   });
 }
 
-List<MedicineModel> dummyData = [
+List<MedicineModel> medi = [
   MedicineModel(
     avatar: '../assets/images/syrup.png',
     name: 'Polopiryna',
