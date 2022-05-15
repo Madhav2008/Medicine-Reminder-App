@@ -43,7 +43,7 @@ class _MedicineCardState extends State<MedicineCard> {
       ),
       subtitle: Text(
         widget.info,
-        style: TextStyle(),
+        style: TextStyle(color: Colors.grey),
       ),
     );
   }
