@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _daysList = _days.getCurrentDays();
     Future.delayed(
       Duration(
-        seconds: 1,
+        seconds: 3,
       ),
       () {
         setState(() {
