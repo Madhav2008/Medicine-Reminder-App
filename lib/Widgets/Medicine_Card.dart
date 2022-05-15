@@ -31,6 +31,7 @@ class _MedicineCardState extends State<MedicineCard> {
             widget.name,
             style: TextStyle(
               fontWeight: FontWeight.w900,
+              fontSize: 25,
             ),
           ),
           Text(
