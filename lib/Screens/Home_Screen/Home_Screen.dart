@@ -232,7 +232,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: CircleAvatar(
                   foregroundColor: Theme.of(context).primaryColor,
-                  backgroundColor: grey,
+                  backgroundColor: Colors.grey,
                   backgroundImage: NetworkImage(medi[i].avatarUrl),
                 ),
               ),
