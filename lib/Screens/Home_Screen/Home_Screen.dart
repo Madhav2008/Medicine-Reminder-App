@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           );
                         },
                       )
-                    : MedicineCard(avatar: avatar, name: name, info: info, time: time)
+                    : MedicineCard(avatar: '../assets/images/capsule.png', name: name, info: info, time: time)
               ],
             ),
           ),
