@@ -192,7 +192,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         },
                       )
                     : ListView.builder(
-                        itemCount: mediciness.length,
+                        itemCount: Medi.length,
                         itemBuilder: (context, i) {
                           return MedicineCard(
                             avatar: '',
