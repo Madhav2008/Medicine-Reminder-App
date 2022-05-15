@@ -191,12 +191,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           );
                         },
                       )
-                    : MedicineCard(
-                        avatar: medicines.avatar,
-                        name: 'Metafen',
-                        info: '1 Capsule',
-                        time: '18:00',
-                      ),
+                    : ListView.builder(itemBuilder: itemBuilder)
               ],
             ),
           ),
