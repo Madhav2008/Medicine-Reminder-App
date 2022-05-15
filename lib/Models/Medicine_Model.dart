@@ -13,5 +13,12 @@ class MedicineModel {
     required this.time,
   });
 
-  List<MedicineModel> medicines = [MedicineModel(avatar: avatar, name: name, info: info, time: time,),];
+  List<MedicineModel> medicines = [
+    MedicineModel(
+      avatar: avatar,
+      name: name,
+      info: info,
+      time: time,
+    ),
+  ];
 }
