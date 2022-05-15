@@ -20,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
       onPressed: () {
         NotificationApi.showNotification(
           title: 'Madhav Arora',
+          body: ''
         );
         // Navigator.push(
         //   context,
