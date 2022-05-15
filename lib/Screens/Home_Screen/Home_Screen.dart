@@ -17,7 +17,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final CalendarDayModel _days = CalendarDayModel(dayLetter: '', dayNumber: 1, isChecked: null, year: null, month: null,);
+  final CalendarDayModel _days = CalendarDayModel(
+    dayLetter: '',
+    dayNumber: 1,
+    isChecked: null,
+    year: null,
+    month: null,
+  );
   late List<CalendarDayModel> _daysList;
 
   @override
