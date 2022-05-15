@@ -155,7 +155,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: deviceHeight * 0.03),
                 isLoading
-                    ? 
+                    ? isEmpty?
                             Lottie.network(
                               'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
                             );
