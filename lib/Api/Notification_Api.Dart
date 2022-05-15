@@ -8,5 +8,5 @@ class NotificationApi {
     String? title,
     String? body,
     String? payload,
-  })
+  }) async
 }
