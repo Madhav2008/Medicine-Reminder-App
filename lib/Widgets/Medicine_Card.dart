@@ -9,6 +9,8 @@ class MedicineCard extends StatefulWidget {
     required this.time,
   }) : super(key: key);
 
+  final String avatar;
+
   @override
   State<MedicineCard> createState() => _MedicineCardState();
 }
