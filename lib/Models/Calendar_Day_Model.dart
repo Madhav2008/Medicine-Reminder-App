@@ -17,7 +17,7 @@ class CalendarDayModel {
 
   //----------------| get current 7 days |----------------------
   List<CalendarDayModel> getCurrentDays() {
-    final List<CalendarDayModel> daysList = List();
+    final List<CalendarDayModel> daysList = [];
     DateTime currentTime = DateTime.now();
     for (int i = 0; i < 7; i++) {
       daysList.add(CalendarDayModel(
