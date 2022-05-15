@@ -22,7 +22,7 @@ class _MedicineCardState extends State<MedicineCard> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      tileColor: Colors.white70,
+      tileColor: Colors.white,
       leading: Image.asset(widget.avatar),
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
