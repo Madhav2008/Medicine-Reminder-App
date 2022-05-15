@@ -174,7 +174,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   dailyPills,
                   setData,
                   flutterLocalNotificationsPlugin,
-                )
+                ),
               ],
             ),
           ),
