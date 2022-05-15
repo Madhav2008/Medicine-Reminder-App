@@ -156,17 +156,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   height: deviceHeight * 0.03,
                 ),
-                ListView.builder(
-                  itemCount: medi.length,
-                  itemBuilder: (context, i) {
-                    return MedicineCard(
-                      avatar: medi[i].avatar,
-                      info: medi[i].info,
-                      name: medi[i].name,
-                      time: medi[i].time,
-                    );
-                  },
-                ),
                 isLoading
                     ? isEmpty
                         ? Lottie.network(
@@ -195,17 +184,18 @@ class _HomeScreenState extends State<HomeScreen> {
                               ],
                             ),
                           )
-                    : ListView.builder(
-                        itemCount: medi.length,
-                        itemBuilder: (context, i) {
-                          return MedicineCard(
-                            avatar: medi[i].avatar,
-                            info: medi[i].info,
-                            name: medi[i].name,
-                            time: medi[i].time,
-                          );
-                        },
-                      ),
+                    : 
+                ListView.builder(
+                    itemCount: medi.length,
+                    itemBuilder: (context, i) {
+                      return MedicineCard(
+                        avatar: medi[i].avatar,
+                        info: medi[i].info,
+                        name: medi[i].name,
+                        time: medi[i].time,
+                      );
+                    },
+                  ),
               ],
             ),
           ),
