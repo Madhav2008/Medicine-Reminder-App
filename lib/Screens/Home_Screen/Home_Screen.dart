@@ -17,6 +17,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final Notifications _notifications = Notifications();
+  FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
+  //===============================================================
+
+  //--------------------| List of Pills from database |----------------------
+  List<Pill> allListOfPills = List<Pill>();
+  final Repository _repository = Repository();
+  List<Pill> dailyPills = List<Pill>();
   int _lastChooseDay = 0;
   final CalendarDayModel _days = CalendarDayModel(
     dayLetter: 'Sunday',
