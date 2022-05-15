@@ -36,14 +36,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
-import 'package:medicine/database/repository.dart';
-import 'package:medicine/helpers/snack_bar.dart';
-import 'package:medicine/models/medicine_type.dart';
-import 'package:medicine/models/pill.dart';
-import 'package:medicine/notifications/notifications.dart';
-import '../../helpers/platform_flat_button.dart';
-import '../../screens/add_new_medicine/form_fields.dart';
-import '../../screens/add_new_medicine/medicine_type_card.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
