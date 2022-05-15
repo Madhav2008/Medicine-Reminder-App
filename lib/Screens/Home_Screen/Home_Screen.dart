@@ -47,6 +47,9 @@ class _HomeScreenState extends State<HomeScreen> {
         seconds: 1,
       ),
       () {
+        setState(() {
+          
+        });
         isLoading = true;
       },
     );
