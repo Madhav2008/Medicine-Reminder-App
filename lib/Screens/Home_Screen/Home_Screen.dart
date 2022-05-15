@@ -141,8 +141,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   // child: Calendar(chooseDay, _daysList),
                 ),
                 SizedBox(height: deviceHeight * 0.03),
-                // dailyPills.isEmpty
-                // ?
                 SizedBox(
                   width: double.infinity,
                   height: 100,
