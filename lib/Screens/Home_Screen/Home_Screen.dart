@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final Widget addButton = FloatingActionButton(
       elevation: 2.0,
       onPressed: () {
-        NotificationApi.show
+        NotificationApi.showNotification()
         // Navigator.push(
         //   context,
         //   MaterialPageRoute(
