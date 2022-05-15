@@ -13,10 +13,17 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  @override
+  void initState() {
+    super.initState();
+    startTime();
+  }
+
   startTime() async {
     var _duration = new Duration(seconds: 2);
     return new Timer(_duration, navigationPage);
   }
+
   @override
   Widget build(BuildContext context) {
     final Widget addButton = FloatingActionButton(
@@ -101,18 +108,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: deviceHeight * 0.03),
                 Future.delayed(
-      Duration(
-        seconds: 1,
-      ),
-      () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => LandingPage(),
-          ),
-        );
-      },
-    ),
+                  Duration(
+                    seconds: 1,
+                  ),
+                  () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LandingPage(),
+                      ),
+                    );
+                  },
+                ),
                 SizedBox(
                   width: double.infinity,
                   // height: 100,
