@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 2.0,
       onPressed: () {
         NotificationApi.showNotification(
-          title: 'Madhav Arora'
+          title: 'Madhav Arora',
         );
         // Navigator.push(
         //   context,
