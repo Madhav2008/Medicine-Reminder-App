@@ -11,7 +11,7 @@ class MedicineModel {
     required this.time,
   });
 
-  List<MedicineModel> medi = [
+  List<MedicineModel> dummyData = [
     MedicineModel(
       avatar: '../assets/images/syrup.png',
       name: 'Polopiryna',
