@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _daysList.forEach((day) => day.isChecked = false);
       CalendarDayModel chooseDay = _daysList[_daysList.indexOf(clickedDay)];
       chooseDay.isChecked = true;
-      dailyPills.clear();
+      // dailyPills.clear();
       allListOfPills.forEach((pill) {
         DateTime pillDate =
             DateTime.fromMicrosecondsSinceEpoch(pill.time * 1000);
