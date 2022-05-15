@@ -4,7 +4,6 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:medicine_reminder_app/Models/Calendar_Day_Model.dart';
-import 'package:medicine_reminder_app/Models/Medicine_Model.dart';
 import 'package:medicine_reminder_app/Screens/Add_Medicine_Screen/Add_Medicine_Screen.dart';
 import 'dart:async';
 
