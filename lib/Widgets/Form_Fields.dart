@@ -10,7 +10,7 @@ class FormFields extends StatelessWidget {
   final TextEditingController nameController;
   final TextEditingController amountController;
   FormFields(this.howManyWeeks, this.selectWeight, this.onPopUpMenuChanged,
-      this.onSliderChanged, this.nameController, this.amountController);
+      this.onSliderChanged, this.nameController, this.amountController,);
 
   @override
   Widget build(BuildContext context) {
