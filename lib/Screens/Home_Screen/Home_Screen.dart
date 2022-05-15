@@ -18,7 +18,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final CalendarDayModel _days = CalendarDayModel(
-    dayLetter: '',
+    dayLetter: 'Monday',
     dayNumber: 1,
     isChecked: false,
     year: 2022,
