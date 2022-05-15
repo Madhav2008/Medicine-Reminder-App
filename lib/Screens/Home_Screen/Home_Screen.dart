@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(height: deviceHeight * 0.03),
                 SizedBox(
                   width: double.infinity,
-                  height: 100,
+                  // height: 100,
                   child: Column(
                     children: [
                       Lottie.network(
