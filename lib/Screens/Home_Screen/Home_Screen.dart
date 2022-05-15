@@ -18,11 +18,6 @@ class _HomeScreenState extends State<HomeScreen> {
     final Widget addButton = FloatingActionButton(
       elevation: 2.0,
       onPressed: () {
-        NotificationApi.showNotification(
-          title: 'Madhav Arora',
-          body: 'Sistarrrr I Love You So Much',
-          payload: 'madhav.abs',
-        );
         // Navigator.push(
         //   context,
         //   MaterialPageRoute(
