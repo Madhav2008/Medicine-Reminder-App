@@ -7,7 +7,7 @@ class CalendarDayModel {
   int year;
   bool isChecked;
 
-  CalendarDayModel({this.dayLetter,this.dayNumber,this.year, this.month, this.isChecked});
+  CalendarDayModel({this.dayLetter,this.dayNumber,this.year, this.month, this.isChecked,});
 
   //----------------| get current 7 days |----------------------
   List<CalendarDayModel> getCurrentDays() {
