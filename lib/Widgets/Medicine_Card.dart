@@ -23,6 +23,7 @@ class _MedicineCardState extends State<MedicineCard> {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Image.asset(widget.avatar),
+      
     );
   }
 }
