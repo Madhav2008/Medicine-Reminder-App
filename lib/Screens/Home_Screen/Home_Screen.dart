@@ -192,7 +192,7 @@ class _HomeScreenState extends State<HomeScreen> {
           // dailyPills.add(pill);
         }
       });
-      dailyPills.sort((pill1, pill2) => pill1.time.compareTo(pill2.time));
+      // dailyPills.sort((pill1, pill2) => pill1.time.compareTo(pill2.time));
     });
   }
 }
