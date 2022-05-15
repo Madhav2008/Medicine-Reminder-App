@@ -11,7 +11,7 @@ class MedicineCard extends StatefulWidget {
 
   final String avatar;
   final String name;
-  final String avatar;
+  final String info;
   final String avatar;
 
   @override
