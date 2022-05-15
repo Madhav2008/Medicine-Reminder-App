@@ -7,7 +7,13 @@ class CalendarDayModel {
   int year;
   bool isChecked;
 
-  CalendarDayModel({this.dayLetter,this.dayNumber,this.year, this.month, this.isChecked,});
+  CalendarDayModel({
+    this.dayLetter,
+    this.dayNumber,
+    this.year,
+    this.month,
+    this.isChecked,
+  });
 
   //----------------| get current 7 days |----------------------
   List<CalendarDayModel> getCurrentDays() {
@@ -17,7 +23,7 @@ class CalendarDayModel {
       daysList.add(CalendarDayModel(
           dayLetter: DateFormat.E().format(currentTime).toString()[0],
           dayNumber: currentTime.day,
-          month:currentTime.month,
+          month: currentTime.month,
           year: currentTime.year,
           isChecked: false));
       currentTime = currentTime.add(Duration(days: 1));
