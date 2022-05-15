@@ -16,6 +16,7 @@ class NotificationApi {
   }
 
   static Future init({bool initScheduled = false,}) async {
+    final iOS
     final settings = InitializationSettings(
       android: android,
       iOS: iOS,
