@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             avatar: medi[i].avatar,
                             info: medi[i].avatar,
                             name: medi[i].avatar,
-                            time: '',
+                            time: medi[i].avatar,
                           );
                         },
                       ),
