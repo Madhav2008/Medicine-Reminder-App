@@ -111,6 +111,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
+                  child: Calendar(chooseDay,_daysList),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 5.0),
                 ),
                 SizedBox(height: deviceHeight * 0.03),
                 FutureBuilder(
