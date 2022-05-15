@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     dayNumber: 1,
     isChecked: false,
     year: 2022,
-    month: null,
+    month: 12,
   );
   late List<CalendarDayModel> _daysList;
 
