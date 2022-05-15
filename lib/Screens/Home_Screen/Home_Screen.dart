@@ -158,7 +158,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 isLoading
                     ? isEmpty
-                        ? Lottie.network(
+                        ? 
+                        ListView.builder(
+                        itemCount: medi.length,
+                        itemBuilder: (context, i) {
+                          return MedicineCard(
+                            avatar: medi[i].avatar,
+                            info: medi[i].info,
+                            name: medi[i].name,
+                            time: medi[i].time,
+                          );
+                        },
+                      )Lottie.network(
                             'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
                           )
                         : SizedBox(
