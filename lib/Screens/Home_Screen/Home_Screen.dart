@@ -116,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 35,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w900,
                           ),
                         ),
                         ShakeAnimatedWidget(
