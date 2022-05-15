@@ -9,5 +9,7 @@ class NotificationApi {
     String? body,
     String? payload,
   }) async =>
-      _notifications.show()
+      _notifications.show(
+        id,
+      )
 }
