@@ -15,7 +15,9 @@ class NotificationApi {
     );
   }
 
-  static Future init({bool initScheduled = false,}) async {}
+  static Future init({bool initScheduled = false,}) async {
+    await _notifications.initialize()
+  }
 
   static Future showNotification({
     int id = 0,
