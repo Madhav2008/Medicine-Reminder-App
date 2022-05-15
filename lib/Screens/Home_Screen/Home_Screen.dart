@@ -130,6 +130,16 @@ class _HomeScreenState extends State<HomeScreen> {
                       // height: 100,
                       child: Column(
                         children: [
+                          Future.delayed(
+                    Duration(
+                      seconds: 2,
+                    ),
+                    () {
+                      Lottie.network(
+                        'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                      );
+                    },
+                  ),
                           Lottie.network(
                             'https://assets4.lottiefiles.com/packages/lf20_acxgzi0c.json',
                             width: 200,
