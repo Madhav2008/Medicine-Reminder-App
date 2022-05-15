@@ -27,7 +27,7 @@ class MedicineCard extends StatelessWidget {
                 EdgeInsets.symmetric(vertical: 15.0, horizontal: 15.0),
             title: Text(
               medicine.name,
-              style: Theme.of(context).textTheme.headline1.copyWith(
+              style: Theme.of(context).textTheme.headline1!.copyWith(
                   color: Colors.black,
                   fontSize: 20.0,
                   decoration: isEnd ? TextDecoration.lineThrough : null),
