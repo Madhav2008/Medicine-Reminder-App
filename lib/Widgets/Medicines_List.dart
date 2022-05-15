@@ -3,7 +3,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:medicine_reminder_app/Widgets/Medicine_Card.dart';
 
 class MedicinesList extends StatelessWidget {
-  final List<Pill> listOfMedicines;
+  final List<> listOfMedicines;
   final Function setData;
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
   MedicinesList(this.listOfMedicines,this.setData,this.flutterLocalNotificationsPlugin);
