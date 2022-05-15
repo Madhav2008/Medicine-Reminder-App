@@ -115,18 +115,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(height: deviceHeight * 0.03),
                 FutureBuilder(
                   future: Future.delayed(
-      Duration(
-        seconds: 2,
-      ),
-      () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => LandingPage(),
-          ),
-        );
-      },
-    ),
+                    Duration(
+                      seconds: 2,
+                    ),
+                    () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => LandingPage(),
+                        ),
+                      );
+                    },
+                  ),
                   builder: (context, index) {
                     return SizedBox(
                       width: double.infinity,
