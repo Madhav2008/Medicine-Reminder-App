@@ -112,7 +112,29 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
                 ),
                 SizedBox(height: deviceHeight * 0.03),
-                FutureBuilder(builder: (context, index) {}),
+                FutureBuilder(builder: (context, index) {return SizedBox(
+                  width: double.infinity,
+                  // height: 100,
+                  child: Column(
+                    children: [
+                      Lottie.network(
+                        'https://assets4.lottiefiles.com/packages/lf20_acxgzi0c.json',
+                        width: 200,
+                        height: 200,
+                      ),
+                      WavyAnimatedTextKit(
+                        textStyle: TextStyle(
+                          fontSize: 32.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                        text: ["Loading..."],
+                        isRepeatingAnimation: true,
+                        speed: Duration(milliseconds: 150),
+                      ),
+                    ],
+                  ),
+                ),}),
               ],
             ),
           ),
