@@ -11,7 +11,7 @@ class CalendarDayModel {
     required this.dayLetter,
     required this.dayNumber,
     this.year,
-    this.month,
+    required this.month,
     this.isChecked,
   });
 
