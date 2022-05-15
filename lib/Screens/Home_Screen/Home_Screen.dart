@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         builder: (context, index) {
                           return SizedBox(
                             width: double.infinity,
-                            // height: 100,
+                            height: 700,
                             child: Column(
                               children: [
                                 Lottie.network(
