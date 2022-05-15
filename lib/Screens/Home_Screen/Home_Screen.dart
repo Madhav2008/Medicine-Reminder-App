@@ -113,6 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: deviceHeight * 0.03),
                 FutureBuilder(
+                  future: startTime(),
                   builder: (context, index) {
                     return SizedBox(
                       width: double.infinity,
