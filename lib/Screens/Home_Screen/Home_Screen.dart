@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     dayLetter: '',
     dayNumber: 1,
     isChecked: false,
-    year: null,
+    year: 2022,
     month: null,
   );
   late List<CalendarDayModel> _daysList;
