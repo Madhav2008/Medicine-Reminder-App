@@ -12,6 +12,7 @@ class NotificationApi {
       _notifications.show(
         id,
         title,
-        body,await _notificationDetails(),
+        body,
+        await _notificationDetails(),
       )
 }
