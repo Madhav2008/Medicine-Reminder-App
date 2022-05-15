@@ -21,6 +21,8 @@ class MedicineCard extends StatefulWidget {
 class _MedicineCardState extends State<MedicineCard> {
   @override
   Widget build(BuildContext context) {
-    return ListTile();
+    return ListTile(
+      leading: Image.asset(name),
+    );
   }
 }
