@@ -10,14 +10,15 @@ class UserSlider extends StatelessWidget {
     return Row(
       children: [
         Expanded(
-            child: PlatformSlider(
-          divisions: 11,
-          min: 1,
-          max: 10,
-          value: howManyWeeks,
-          color: Theme.of(context).primaryColor,
-          handler: this.handler,
-        ),),
+          child: PlatformSlider(
+            divisions: 11,
+            min: 1,
+            max: 10,
+            value: howManyWeeks,
+            color: Theme.of(context).primaryColor,
+            handler: this.handler,
+          ),
+        ),
       ],
     );
   }
