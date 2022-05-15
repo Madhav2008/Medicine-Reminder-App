@@ -12,4 +12,6 @@ class MedicineModel {
     required this.info,
     required this.time,
   });
+
+  List<MedicineModel> medicines=[]
 }
