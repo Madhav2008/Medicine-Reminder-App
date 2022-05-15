@@ -13,7 +13,7 @@ class MedicineModel {
     required this.time,
   });
 
-  List<MedicineModel> mediciness = [
+  List<MedicineModel> Medi = [
     MedicineModel(
       avatar: '../assets/images/syrup.png',
       name: 'Polopiryna',
