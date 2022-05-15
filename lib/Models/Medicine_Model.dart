@@ -18,7 +18,7 @@ class MedicineModel {
       avatar: '../assets/images/',
       name: 'Polopiryna',
       info: '10 Syrup',
-      time: '',
+      time: '17:05',
     ),
     MedicineModel(
       avatar: '../assets/images/capsule.png',
