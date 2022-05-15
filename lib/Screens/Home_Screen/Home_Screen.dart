@@ -47,12 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
         seconds: 1,
       ),
       () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => LandingPage(),
-          ),
-        );
+        isLoading = true;
       },
     );
   }
