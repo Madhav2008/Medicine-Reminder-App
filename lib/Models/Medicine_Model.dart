@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class MedicineModel {
-  String name;
+  final String name;
   Widget image;
   bool isChoose;
   MedicineType(
