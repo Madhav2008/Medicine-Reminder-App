@@ -41,7 +41,10 @@ class _MedicineCardState extends State<MedicineCard> {
           ),
         ],
       ),
-      subtitle: Text(widget.info,style: TextStyle(),),
+      subtitle: Text(
+        widget.info,
+        style: TextStyle(),
+      ),
     );
   }
 }
