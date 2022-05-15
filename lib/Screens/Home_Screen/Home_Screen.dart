@@ -261,7 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Icon(
                       Icons.done_all,
                       size: 20,
-                      color: blue,
+                      color: Colors.blue,
                     ),
                     SizedBox(
                       width: 5,
