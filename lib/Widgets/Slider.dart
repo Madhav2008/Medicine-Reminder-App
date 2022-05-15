@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicine_reminder_app/Widgets/Platform_Slider.dart';
 
 class UserSlider extends StatelessWidget {
   final Function handler;
