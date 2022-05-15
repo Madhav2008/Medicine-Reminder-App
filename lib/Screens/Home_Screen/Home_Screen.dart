@@ -116,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 FutureBuilder(
                   future: Future.delayed(
       Duration(
-        seconds: 1,
+        seconds: 2,
       ),
       () {
         Navigator.push(
