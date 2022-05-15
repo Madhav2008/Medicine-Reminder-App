@@ -19,6 +19,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _lastChooseDay = 0;
+  final DailyPills;
   final CalendarDayModel _days = CalendarDayModel(
     dayLetter: 'Sunday',
     dayNumber: 15,
@@ -169,7 +170,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     );
                   },
                 ),
-                MedicinesList(dailyPills,setData,flutterLocalNotificationsPlugin)
+                MedicinesList(
+                    dailyPills, setData, flutterLocalNotificationsPlugin)
               ],
             ),
           ),
