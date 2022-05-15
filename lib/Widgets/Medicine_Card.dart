@@ -27,7 +27,7 @@ class _MedicineCardState extends State<MedicineCard> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            dummyData[i].name,
+            widget.name,
             style: TextStyle(
               fontWeight: FontWeight.bold,
             ),
