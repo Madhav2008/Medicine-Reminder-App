@@ -17,7 +17,7 @@ class MedicineModel {
     MedicineModel(
       avatar: '../assets/images/',
       name: 'Polopiryna',
-      info: '',
+      info: '10 Syrup',
       time: '',
     ),
     MedicineModel(
