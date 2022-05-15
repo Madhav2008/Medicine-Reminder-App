@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _lastChooseDay = 0;
   final CalendarDayModel _days = CalendarDayModel(
     dayLetter: 'Sunday',
-    dayNumber: 16,
+    dayNumber: 15,
     isChecked: false,
     year: 2022,
     month: 5,
