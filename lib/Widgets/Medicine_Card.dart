@@ -10,6 +10,7 @@ class MedicineCard extends StatefulWidget {
   }) : super(key: key);
 
   final String avatar;
+  final String avatar;
 
   @override
   State<MedicineCard> createState() => _MedicineCardState();
