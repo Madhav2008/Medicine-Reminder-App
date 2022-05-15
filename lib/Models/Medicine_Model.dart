@@ -20,7 +20,7 @@ class MedicineModel {
       info: info,
       time: time,
     ),
-    MedicineCard(
+    MedicineModel(
                         avatar: '../assets/images/capsule.png',
                         name: 'Metafen',
                         info: '1 Capsule',
