@@ -100,6 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 100,
                   child: Column(
                     children: [
+                      
                       WavyAnimatedTextKit(
                         textStyle: TextStyle(
                           fontSize: 32.0,
