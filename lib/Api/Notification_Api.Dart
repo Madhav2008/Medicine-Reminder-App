@@ -8,7 +8,7 @@ class NotificationApi {
       android: AndroidNotificationDetails(
         'channel id',
         'channel name',
-        'channel decription'
+        'channel description'
       ),
       iOS: IOSNotificationDetails(),
     );
