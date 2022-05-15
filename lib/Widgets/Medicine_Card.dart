@@ -35,7 +35,7 @@ class _MedicineCardState extends State<MedicineCard> {
           Text(
             widget.time,
             style: TextStyle(
-              color: grey,
+              color: Colors.grey,
               fontSize: 14.0,
             ),
           ),
