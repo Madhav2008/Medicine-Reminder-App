@@ -18,7 +18,8 @@ class NotificationApi {
   static Future init({bool initScheduled = false,}) async {
     final settings = InitializationSettings(
       android: android,
-     iOS: iOS,);
+     iOS: iOS,
+     );
 
     await _notifications.initialize(
       settings,
