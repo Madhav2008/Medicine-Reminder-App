@@ -17,7 +17,7 @@ class UserSlider extends StatelessWidget {
           value: howManyWeeks,
           color: Theme.of(context).primaryColor,
           handler: this.handler,
-        )),
+        ),),
       ],
     );
   }
