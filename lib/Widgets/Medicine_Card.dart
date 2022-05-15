@@ -22,7 +22,7 @@ class _MedicineCardState extends State<MedicineCard> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: Image.asset(avatar),
+      leading: Image.asset(widget.avatar),
     );
   }
 }
