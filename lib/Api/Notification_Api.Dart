@@ -11,6 +11,7 @@ class NotificationApi {
   }) async =>
       _notifications.show(
         id,
-        title,body,await _notificationDetails(),
+        title,
+        body,await _notificationDetails(),
       )
 }
