@@ -16,7 +16,7 @@ class MedicineModel {
   List<MedicineModel> medicines = [
     MedicineModel(
       avatar: '../assets/images/',
-      name: 'Polopiryana',
+      name: 'Polopiryna',
       info: '',
       time: '',
     ),
