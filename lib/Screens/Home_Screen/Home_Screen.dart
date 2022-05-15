@@ -96,7 +96,19 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.symmetric(horizontal: 5.0),
                 ),
                 SizedBox(height: deviceHeight * 0.03),
-                Future.delayed(duration)
+                Future.delayed(
+      Duration(
+        seconds: 1,
+      ),
+      () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => LandingPage(),
+          ),
+        );
+      },
+    );
                 SizedBox(
                   width: double.infinity,
                   // height: 100,
