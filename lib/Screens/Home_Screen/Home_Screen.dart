@@ -32,30 +32,6 @@ class _HomeScreenState extends State<HomeScreen> {
   int _lastChooseDay = 0;
 
   @override
-  void initState() {
-    super.initState();
-    // initNotifies();
-    setData();
-    // _daysList = _days.getCurrentDays();
-  }
-
-  //init notifications
-  // Future initNotifies() async => flutterLocalNotificationsPlugin =
-  // await _notifications.initNotifies(context);
-
-  //--------------------GET ALL DATA FROM DATABASE---------------------
-  Future setData() async {
-    // allListOfPills.clear();
-    // (await _repository.getAllData("Pills")).forEach((pillMap) {
-    //   allListOfPills.add(
-    //     Pill().pillMapToObject(pillMap),
-    //   );
-    // });
-    // chooseDay(_daysList[_lastChooseDay]);
-  }
-  //===================================================================
-
-  @override
   Widget build(BuildContext context) {
     final Widget addButton = FloatingActionButton(
       elevation: 2.0,
