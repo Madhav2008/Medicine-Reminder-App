@@ -9,6 +9,7 @@ class NotificationApi {
         'channel id',
         'channel name',
         'channel description',
+        importance : Importance.max
       ),
       iOS: IOSNotificationDetails(),
     );
