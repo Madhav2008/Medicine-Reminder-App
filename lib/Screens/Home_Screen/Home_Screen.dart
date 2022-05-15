@@ -120,8 +120,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     () {
                       Lottie.network(
-            'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
-          )
+                        'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                      );
                     },
                   ),
                   builder: (context, index) {
