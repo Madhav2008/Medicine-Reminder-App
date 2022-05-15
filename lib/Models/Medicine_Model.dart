@@ -21,10 +21,10 @@ class MedicineModel {
       time: time,
     ),
     MedicineModel(
-                        avatar: '../assets/images/capsule.png',
-                        name: 'Metafen',
-                        info: '1 Capsule',
-                        time: '18:00',
-                      ),
+      avatar: '../assets/images/capsule.png',
+      name: 'Metafen',
+      info: '1 Capsule',
+      time: '18:00',
+    ),
   ];
 }
