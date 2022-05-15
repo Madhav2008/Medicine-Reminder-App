@@ -180,7 +180,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     );
                   },
                 ),
-                MedicineCard('medicine', setData, flutterLocalNotificationsPlugin)
+                MedicineCard(
+                    'medicine', setData, flutterLocalNotificationsPlugin)
               ],
             ),
           ),
