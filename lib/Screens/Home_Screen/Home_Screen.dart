@@ -191,7 +191,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           );
                         },
                       )
-                    : ListView.builder(itemBuilder: (context, i) {},)
+                    : ListView.builder(
+                        itemBuilder: (context, i) {},
+                      )
               ],
             ),
           ),
