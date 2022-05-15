@@ -11,6 +11,7 @@ class MedicineCard extends StatefulWidget {
 
   final String avatar;
   final String avatar;
+  final String avatar;
 
   @override
   State<MedicineCard> createState() => _MedicineCardState();
