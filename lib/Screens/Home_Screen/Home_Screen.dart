@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           );
                         },
                       )
-                    : MedicineCard(avatar: '../assets/images/capsule.png', name: 'Metafen', info: info, time: time)
+                    : MedicineCard(avatar: '../assets/images/capsule.png', name: 'Metafen', info: 'info', time: time)
               ],
             ),
           ),
