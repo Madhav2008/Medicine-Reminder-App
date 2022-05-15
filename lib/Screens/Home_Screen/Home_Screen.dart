@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final CalendarDayModel _days = CalendarDayModel(
     dayLetter: '',
     dayNumber: 1,
-    isChecked: null,
+    isChecked: false,
     year: null,
     month: null,
   );
