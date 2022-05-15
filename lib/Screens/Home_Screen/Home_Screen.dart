@@ -98,15 +98,19 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   width: double.infinity,
                   height: 100,
-                  child: WavyAnimatedTextKit(
-                    textStyle: TextStyle(
-                      fontSize: 32.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                    text: ["Loading..."],
-                    isRepeatingAnimation: true,
-                    speed: Duration(milliseconds: 150),
+                  child: Column(
+                    children: [
+                      WavyAnimatedTextKit(
+                        textStyle: TextStyle(
+                          fontSize: 32.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                        text: ["Loading..."],
+                        isRepeatingAnimation: true,
+                        speed: Duration(milliseconds: 150),
+                      ),
+                    ],
                   ),
                 ),
               ],
