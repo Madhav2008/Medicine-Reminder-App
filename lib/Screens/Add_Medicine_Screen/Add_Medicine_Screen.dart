@@ -77,7 +77,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   ),
                 ),
               ),
-            ),,
+            ),
                 ),
               ],
             ),
