@@ -92,18 +92,19 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 Container(
                   width: MediaQuery.of(context).size.width - 305,
                   child: DropdownButton<String>(
-                      items: _category.map((String dropDownStringItem) {
-                        return DropdownMenuItem<String>(
-                          value: dropDownStringItem,
-                          child: Text(dropDownStringItem),
-                        );
-                      }).toList(),
-                      onChanged: (String? _newValueSelected) {
-                        setState(() {
-                          _currentItemSelected = _newValueSelected;
-                        });
-                      },
-                      value: _currentItemSelected,),
+                    items: _category.map((String dropDownStringItem) {
+                      return DropdownMenuItem<String>(
+                        value: dropDownStringItem,
+                        child: Text(dropDownStringItem),
+                      );
+                    }).toList(),
+                    onChanged: (String? _newValueSelected) {
+                      setState(() {
+                        _currentItemSelected = _newValueSelected;
+                      });
+                    },
+                    value: _currentItemSelected,
+                  ),
                 ),
               ],
             ),
