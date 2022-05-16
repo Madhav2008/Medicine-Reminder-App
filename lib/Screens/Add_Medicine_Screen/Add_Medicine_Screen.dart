@@ -27,7 +27,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         ),
       ),
       body: Column(
-        children:  [
+        children: [
           Padding(
             padding: EdgeInsets.symmetric(
               horizontal: 30.0,
