@@ -93,7 +93,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: MediaQuery.of(context).size.width - 305,
                   decoration: BoxDecoration(
                     border: Border.all(
-                      width: 1,
+                      width: 0.5,
                       color: Colors.grey.shade700,
                     ),
                   ),
