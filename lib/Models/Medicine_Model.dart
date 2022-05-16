@@ -43,4 +43,10 @@ List<MedicineModel> medi = [
     info: '10 syringe',
     time: '19:15',
   ),
+  MedicineModel(
+    avatar: '../assets/images/syringe1.png',
+    name: 'IBUM',
+    info: '10 syringe',
+    time: '19:15',
+  ),
 ];
