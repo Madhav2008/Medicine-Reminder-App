@@ -7,9 +7,9 @@ class Medicines extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return ListView.builder(
-    //   itemCount: medi.length,
-    //   itemBuilder: (context, i) {
+    return ListView.builder(
+      itemCount: medi.length,
+      itemBuilder: (context, i) {
         return ListTile(
           tileColor: Colors.white,
           leading: Image.asset(medi[].avatar),
@@ -47,7 +47,7 @@ class Medicines extends StatelessWidget {
         //   name: medi[i].name,
         //   time: medi[i].time,
         // );
-      // },
-    // );
+      },
+    );
   }
 }
