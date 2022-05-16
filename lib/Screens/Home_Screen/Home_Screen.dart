@@ -185,8 +185,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ],
                             ),
                           )
-                    :
-                     ListView.builder(
+                    : ListView.builder(
                         itemCount: medi.length,
                         itemBuilder: (context, i) {
                           return Column(
