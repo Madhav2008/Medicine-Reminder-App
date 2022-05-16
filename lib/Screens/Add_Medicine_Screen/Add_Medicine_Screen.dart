@@ -74,6 +74,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     ),
                   ),
                 ),
+                SizedBox(width: 30,)
               ],
             ),
           ),
