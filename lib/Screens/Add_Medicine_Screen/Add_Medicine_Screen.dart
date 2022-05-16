@@ -29,7 +29,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       body: Column(
         children: const [
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10.0),
+            padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
             child: TextField(
               decoration: InputDecoration(
                 labelText: 'Medicine Name',
