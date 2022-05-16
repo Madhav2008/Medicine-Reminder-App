@@ -158,18 +158,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: deviceHeight * 0.03,
                 ),
                 // Medicines(),
-                isLoading
-                    //     ? isEmpty
-                    ? Lottie.network(
-                        'https://assets4.lottiefiles.com/packages/lf20_acxgzi0c.json',
-                        width: 200,
-                        height: 200,
-                      )
-                    : Lottie.network(
-                        'https://assets2.lottiefiles.com/packages/lf20_r71cen62.json',
-                        width: 200,
-                        height: 200,
-                      ),
+                // isLoading
+                //     ? isEmpty
+                //         ? Lottie.network(
+                //             'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                //           )
                 //         : SizedBox(
                 //             width: double.infinity,
                 //             // height: 100,
