@@ -214,15 +214,15 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               leading: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (builder) => ViewProfilePhoto(
-                        name: medi[i].name,
-                        avatar: medi[i].avatarUrl,
-                      ),
-                    ),
-                  );
+                  // Navigator.push(
+                  //   context,
+                  //   MaterialPageRoute(
+                  //     builder: (builder) => ViewProfilePhoto(
+                  //       name: medi[i].name,
+                  //       avatar: medi[i].avatarUrl,
+                  //     ),
+                  //   ),
+                  // );
                 },
                 child: CircleAvatar(
                   foregroundColor: Theme.of(context).primaryColor,
