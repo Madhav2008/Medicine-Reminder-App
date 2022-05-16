@@ -10,7 +10,7 @@ class Home1Screen extends StatelessWidget {
     return Column(
       children: [
         HomeScreen(),
-        Medicines()
+        Medicines(),
       ],
     );
   }
