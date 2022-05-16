@@ -11,8 +11,7 @@ class Medicines extends StatelessWidget {
       itemCount: medi.length,
       itemBuilder: (context, i) {
         return Column(
-          children: <Widget>[
-            ListTile(
+          children: <Widget>[            ListTile(
               tileColor: Colors.white,
               leading: Image.asset(medi[i].avatar),
               title: Row(
