@@ -94,7 +94,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      width: 0.5,
+                      width: 1,
                       color: Colors.grey.shade700,
                     ),
                   ),
