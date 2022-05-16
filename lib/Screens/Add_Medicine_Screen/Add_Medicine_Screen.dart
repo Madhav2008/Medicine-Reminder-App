@@ -89,43 +89,22 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 SizedBox(
                   width: 10,
                 ),
-                GestureDetector(
-                  onTap: () {},
-                  child: Container(
-                    width: MediaQuery.of(context).size.width - 305,
-                    decoration: BoxDecoration(
-                      border: Border(
-                        bottom: BorderSide(
-                          width: 1.5,
-                          // color: one,
+                Container(
+                          width: MediaQuery.of(context).size.width,
+                          child: DropdownButton<String>(
+                              items: _category.map((String dropDownStringItem) {
+                                return DropdownMenuItem<String>(
+                                  value: dropDownStringItem,
+                                  child: Text(dropDownStringItem),
+                                );
+                              }).toList(),
+                              onChanged: (String? _newValueSelected) {
+                                setState(() {
+                                  _currentItemSelected = _newValueSelected;
+                                });
+                              },
+                              value: _currentItemSelected),
                         ),
-                      ),
-                    ),
-                    child: Padding(
-                      padding: EdgeInsets.all(10.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Expanded(
-                            child: Center(
-                              child: Text(
-                                'Type',
-                                style: TextStyle(
-                                  fontSize: 17,
-                                ),
-                              ),
-                            ),
-                          ),
-                          Icon(
-                            Icons.arrow_drop_down,
-                            // color: one,
-                            size: 25,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
               ],
             ),
           ),
