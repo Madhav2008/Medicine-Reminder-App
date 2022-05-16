@@ -118,7 +118,9 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               ],
             ),
           ),
-          SizedBox(height: 20,),
+          SizedBox(
+            height: 20,
+          ),
           Container(
             height: MediaQuery.of(context).size.height * 0.035,
             child: Padding(
@@ -127,9 +129,10 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 child: Text(
                   "Medicine form",
                   style: TextStyle(
-                      color: Colors.grey[800],
-                      fontSize: 18.0,
-                      fontWeight: FontWeight.w600,),
+                    color: Colors.grey[800],
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
             ),
