@@ -196,6 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           SizedBox(
                             height: 10,
                           ),
+                          Text('No Data Found')
                         ],
                       ),
                 // Medicines(),
