@@ -186,7 +186,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           )
                     : ListView.builder(
-      itemCount: dummyData.length,
+      itemCount: medi.length,
       itemBuilder: (context, i) {
         return Column(
           children: <Widget>[
@@ -200,11 +200,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   MaterialPageRoute(
                     builder: (BuildContext context) {
                       return ChatScreen(
-                        avatar: dummyData[i].avatarUrl,
-                        name: dummyData[i].name,
-                        phoneno: dummyData[i].phoneno,
-                        about: dummyData[i].about,
-                        // user: dummyData[i].name,
+                        avatar: medi[i].avatarUrl,
+                        name: medi[i].name,
+                        phoneno: medi[i].phoneno,
+                        about: medi[i].about,
+                        // user: medi[i].name,
                         // sourceChat: sourceChat,
                         // chatModels: chatModels,
                       );
@@ -218,8 +218,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     context,
                     MaterialPageRoute(
                       builder: (builder) => ViewProfilePhoto(
-                        name: dummyData[i].name,
-                        avatar: dummyData[i].avatarUrl,
+                        name: medi[i].name,
+                        avatar: medi[i].avatarUrl,
                       ),
                     ),
                   );
@@ -227,20 +227,20 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: CircleAvatar(
                   foregroundColor: Theme.of(context).primaryColor,
                   backgroundColor: grey,
-                  backgroundImage: NetworkImage(dummyData[i].avatarUrl),
+                  backgroundImage: NetworkImage(medi[i].avatarUrl),
                 ),
               ),
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    dummyData[i].name,
+                    medi[i].name,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
-                    dummyData[i].time,
+                    medi[i].time,
                     style: TextStyle(
                       color: grey,
                       fontSize: 14.0,
@@ -261,7 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 5,
                     ),
                     Text(
-                      dummyData[i].message,
+                      medi[i].message,
                       style: TextStyle(
                         color: grey,
                         fontSize: 15.0,
