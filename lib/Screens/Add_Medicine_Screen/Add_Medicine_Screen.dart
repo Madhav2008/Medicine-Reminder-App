@@ -129,7 +129,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       ),
                       Icon(
                         Icons.arrow_drop_down,
-                        color: one,
+                        // color: one,
                         size: 25,
                       ),
                     ],
