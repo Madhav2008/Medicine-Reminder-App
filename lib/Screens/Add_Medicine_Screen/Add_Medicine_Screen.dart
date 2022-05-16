@@ -38,6 +38,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 labelText: 'Medicine Name',
                 labelStyle: TextStyle(color: Colors.grey.shade700),
                 enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
                   borderSide: BorderSide(
                     color: Colors.grey.shade700,
                     width: 0.0,
