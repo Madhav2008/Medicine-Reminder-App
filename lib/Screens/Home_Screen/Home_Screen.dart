@@ -158,7 +158,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: deviceHeight * 0.03,
                 ),
                 // Medicines(),
-                // isLoading
+                isLoading
                 //     ? isEmpty
                 //         ?
                 Lottie.network(
