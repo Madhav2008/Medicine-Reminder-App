@@ -110,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
               bottom: 20.0,
             ),
             child: Column(
-              children: <Widget>[
+              children: [
                 SizedBox(
                   height: deviceHeight * 0.04,
                 ),
