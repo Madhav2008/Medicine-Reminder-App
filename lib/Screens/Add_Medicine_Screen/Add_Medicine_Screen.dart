@@ -17,7 +17,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
     'mg',
   ];
   final List<MedicineType> medicineTypes = [
-    MedicineType("Syrup", Image.asset("assets/images/syrup.png"), true),
+    MedicineType("Syrup", Image.asset("../assets/images/syrup.png"), true),
     MedicineType("Pill", Image.asset("assets/images/pills.png"), false),
     MedicineType("Capsule", Image.asset("assets/images/capsule.png"), false),
     MedicineType("Cream", Image.asset("assets/images/cream.png"), false),
