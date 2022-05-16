@@ -195,22 +195,22 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             ListTile(
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (BuildContext context) {
-                      return ChatScreen(
-                        avatar: medi[i].avatarUrl,
-                        name: medi[i].name,
-                        phoneno: medi[i].phoneno,
-                        about: medi[i].about,
-                        // user: medi[i].name,
-                        // sourceChat: sourceChat,
-                        // chatModels: chatModels,
-                      );
-                    },
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (BuildContext context) {
+                //       return ChatScreen(
+                //         avatar: medi[i].avatarUrl,
+                //         name: medi[i].name,
+                //         phoneno: medi[i].phoneno,
+                //         about: medi[i].about,
+                //         // user: medi[i].name,
+                //         // sourceChat: sourceChat,
+                //         // chatModels: chatModels,
+                //       );
+                //     },
+                //   ),
+                // );
               },
               leading: GestureDetector(
                 onTap: () {
