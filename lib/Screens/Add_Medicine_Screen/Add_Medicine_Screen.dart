@@ -74,7 +74,9 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     ),
                   ),
                 ),
-                SizedBox(width: 30,),
+                SizedBox(
+                  width: 30,
+                ),
                 TextField(
                   decoration: InputDecoration(
                     labelText: 'Medicine Amount',
