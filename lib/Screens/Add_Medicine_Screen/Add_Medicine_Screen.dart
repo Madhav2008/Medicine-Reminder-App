@@ -101,7 +101,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                         Expanded(
                           child: Center(
                             child: Text(
-                              'type',
+                              'Type',
                               style: TextStyle(
                                 fontSize: 17,
                               ),
