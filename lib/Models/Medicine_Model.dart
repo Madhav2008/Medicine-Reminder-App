@@ -40,7 +40,7 @@ List<MedicineModel> medi = [
   MedicineModel(
     avatar: '../assets/images/capsule.png',
     name: 'Nurofen',
-    info: '3 Capsule',
+    info: '3 Capsules',
     time: '21:00',
   ),
 ];
