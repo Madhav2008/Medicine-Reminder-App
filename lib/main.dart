@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // primarySwatch: Colors.blueGrey,
         primarySwatch: Color(0xFF07BEC8),
-        primarySwatch: Colors.tealAccent,
+        primarySwatch: Color.fromRGBO(7, 190, 200, 1),,
       ),
       home: OnboardingScreen(),
     );
