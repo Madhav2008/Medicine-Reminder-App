@@ -50,7 +50,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 30),
           Container(
             width: MediaQuery.of(context).size.width - 90,
             child: TextField(
