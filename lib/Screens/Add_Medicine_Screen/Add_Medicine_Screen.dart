@@ -18,16 +18,11 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
   ];
   final List<MedicineType> medicineTypes = [
     MedicineType("Syrup", Image.asset("assets/images/syrup.png"), true),
-    MedicineType(
-        "Pill", Image.asset("assets/images/pills.png"), false),
-    MedicineType(
-        "Capsule", Image.asset("assets/images/capsule.png"), false),
-    MedicineType(
-        "Cream", Image.asset("assets/images/cream.png"), false),
-    MedicineType(
-        "Drops", Image.asset("assets/images/drops.png"), false),
-    MedicineType(
-        "Syringe", Image.asset("assets/images/syringe.png"), false),
+    MedicineType("Pill", Image.asset("assets/images/pills.png"), false),
+    MedicineType("Capsule", Image.asset("assets/images/capsule.png"), false),
+    MedicineType("Cream", Image.asset("assets/images/cream.png"), false),
+    MedicineType("Drops", Image.asset("assets/images/drops.png"), false),
+    MedicineType("Syringe", Image.asset("assets/images/syringe.png"), false),
   ];
   String? _currentItemSelected = 'pills';
   DateTime setDate = DateTime.now();
@@ -280,6 +275,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       print(newDate.minute);
     });
   }
+
   void medicineTypeClick(MedicineType medicine) {
     setState(() {
       medicineTypes.forEach((medicineType) => medicineType.isChoose = false);
