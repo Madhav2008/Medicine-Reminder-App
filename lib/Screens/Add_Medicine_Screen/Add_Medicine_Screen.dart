@@ -199,7 +199,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     height: double.infinity,
                     child: FlatButton(
                       onPressed: () => openDatePicker(),
-                      buttonChild: Row(
+                      child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           SizedBox(width: 10),
