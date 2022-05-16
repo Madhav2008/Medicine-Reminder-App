@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_reminder_app/Screens/Home_Screen/Home1_Screen.dart';
 import 'package:medicine_reminder_app/Screens/Home_Screen/Home_Screen.dart';
 
 class OnboardingScreen extends StatefulWidget {
