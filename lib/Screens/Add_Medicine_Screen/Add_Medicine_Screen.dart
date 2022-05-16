@@ -31,6 +31,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           TextField(
             decoration: InputDecoration(
               labelText: 'Medicine Name',
+              labelStyle: TextStyle(color: grey),
               enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(
                   color: Colors.grey,
