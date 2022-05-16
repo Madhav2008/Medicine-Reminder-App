@@ -8,6 +8,14 @@ class AddMedicineScreen extends StatefulWidget {
 }
 
 class _AddMedicineScreenState extends State<AddMedicineScreen> {
+  var _category = [
+    'Italian Recipe',
+    'Punjabi Recipe',
+    'Chinese Recipe',
+    'Gujrati Recipe',
+    'Bengali Recipe'
+  ];
+  String? _currentItemSelected = 'Italian Recipe';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
