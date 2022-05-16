@@ -32,7 +32,10 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
             decoration: InputDecoration(
               labelText: 'Medicine Name',
               enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.grey, width: 0.0,),
+                borderSide: BorderSide(
+                  color: Colors.grey,
+                  width: 0.0,
+                ),
               ),
               focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(
