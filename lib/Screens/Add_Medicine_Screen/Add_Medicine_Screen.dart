@@ -54,9 +54,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
             height: 10,
           ),
           Container(
-            width: MediaQuery.of(context).size.width - 100,
-            child:Row()
-          ),
+              width: MediaQuery.of(context).size.width - 100, child: Row()),
         ],
       ),
     );
