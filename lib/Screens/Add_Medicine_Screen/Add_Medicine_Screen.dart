@@ -79,6 +79,25 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     ),
                   ),
                 ),
+                TextField(
+                  decoration: InputDecoration(
+                    labelText: 'Medicine Amount',
+                    labelStyle: TextStyle(color: Colors.grey.shade700),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(12),
+                      borderSide: BorderSide(
+                        color: Colors.grey.shade700,
+                        width: 0.0,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.grey.shade700,
+                        width: 0.0,
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
