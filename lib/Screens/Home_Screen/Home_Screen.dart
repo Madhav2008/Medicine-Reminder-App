@@ -186,96 +186,99 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           )
                     : ListView.builder(
-      itemCount: medi.length,
-      itemBuilder: (context, i) {
-        return Column(
-          children: <Widget>[
-            Divider(
-              thickness: 1,
-            ),
-            ListTile(
-              onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (BuildContext context) {
-                //       return ChatScreen(
-                //         avatar: medi[i].avatarUrl,
-                //         name: medi[i].name,
-                //         phoneno: medi[i].phoneno,
-                //         about: medi[i].about,
-                //         // user: medi[i].name,
-                //         // sourceChat: sourceChat,
-                //         // chatModels: chatModels,
-                //       );
-                //     },
-                //   ),
-                // );
-              },
-              leading: GestureDetector(
-                onTap: () {
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (builder) => ViewProfilePhoto(
-                  //       name: medi[i].name,
-                  //       avatar: medi[i].avatarUrl,
-                  //     ),
-                  //   ),
-                  // );
-                },
-                child: CircleAvatar(
-                  foregroundColor: Theme.of(context).primaryColor,
-                  backgroundColor: Colors.grey,
-                  backgroundImage: NetworkImage(medi[i].avatar),
-                ),
-              ),
-              title: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Text(
-                    medi[i].name,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text(
-                    medi[i].time,
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 14.0,
-                    ),
-                  ),
-                ],
-              ),
-              subtitle: Container(
-                padding: EdgeInsets.only(top: 5.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.done_all,
-                      size: 20,
-                      color: Colors.blue,
-                    ),
-                    SizedBox(
-                      width: 5,
-                    ),
-                    Text(
-                      medi[i].info,
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontSize: 15.0,
-                        overflow: TextOverflow.ellipsis,
+                        itemCount: medi.length,
+                        itemBuilder: (context, i) {
+                          return Column(
+                            children: <Widget>[
+                              Divider(
+                                thickness: 1,
+                              ),
+                              ListTile(
+                                onTap: () {
+                                  // Navigator.push(
+                                  //   context,
+                                  //   MaterialPageRoute(
+                                  //     builder: (BuildContext context) {
+                                  //       return ChatScreen(
+                                  //         avatar: medi[i].avatarUrl,
+                                  //         name: medi[i].name,
+                                  //         phoneno: medi[i].phoneno,
+                                  //         about: medi[i].about,
+                                  //         // user: medi[i].name,
+                                  //         // sourceChat: sourceChat,
+                                  //         // chatModels: chatModels,
+                                  //       );
+                                  //     },
+                                  //   ),
+                                  // );
+                                },
+                                leading: GestureDetector(
+                                  onTap: () {
+                                    // Navigator.push(
+                                    //   context,
+                                    //   MaterialPageRoute(
+                                    //     builder: (builder) => ViewProfilePhoto(
+                                    //       name: medi[i].name,
+                                    //       avatar: medi[i].avatarUrl,
+                                    //     ),
+                                    //   ),
+                                    // );
+                                  },
+                                  child: CircleAvatar(
+                                    foregroundColor:
+                                        Theme.of(context).primaryColor,
+                                    backgroundColor: Colors.grey,
+                                    backgroundImage:
+                                        NetworkImage(medi[i].avatar),
+                                  ),
+                                ),
+                                title: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: <Widget>[
+                                    Text(
+                                      medi[i].name,
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    Text(
+                                      medi[i].time,
+                                      style: TextStyle(
+                                        color: Colors.grey,
+                                        fontSize: 14.0,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                subtitle: Container(
+                                  padding: EdgeInsets.only(top: 5.0),
+                                  child: Row(
+                                    children: [
+                                      Icon(
+                                        Icons.done_all,
+                                        size: 20,
+                                        color: Colors.blue,
+                                      ),
+                                      SizedBox(
+                                        width: 5,
+                                      ),
+                                      Text(
+                                        medi[i].info,
+                                        style: TextStyle(
+                                          color: Colors.grey,
+                                          fontSize: 15.0,
+                                          overflow: TextOverflow.ellipsis,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          );
+                        },
                       ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        );
-      },
-    ),
               ],
             ),
           ),
