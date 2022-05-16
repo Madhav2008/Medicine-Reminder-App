@@ -161,9 +161,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 // isLoading
                 //     ? isEmpty
                 //         ? 
-                // Lottie.network(
-                //             'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
-                //           )
+                Lottie.network(
+                            'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                          )
                 //         : SizedBox(
                 //             width: double.infinity,
                 //             // height: 100,
