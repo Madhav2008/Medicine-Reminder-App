@@ -29,7 +29,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       body: Column(
         children: [
           Container(
-            width: MediaQuery.of(context).size.width-100,
+            width: MediaQuery.of(context).size.width - 100,
             child: TextField(
               decoration: InputDecoration(
                 labelText: 'Medicine Name',
