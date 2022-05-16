@@ -88,7 +88,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       child: TextField(
                         keyboardType: TextInputType.number,
                         decoration: InputDecoration(
-                          labelText: 'Medicine Amount',
+                          labelText: 'Medicine Quantity',
                           labelStyle: TextStyle(color: Colors.grey.shade700),
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(12),
