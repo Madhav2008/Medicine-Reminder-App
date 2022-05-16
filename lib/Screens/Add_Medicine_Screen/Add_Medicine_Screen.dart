@@ -229,7 +229,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
             width: double.infinity,
             child: FlatButton(
               // handler: () async => savePill(),
-              onPressed: (){},
+              onPressed: () {},
               color: Theme.of(context).primaryColor,
               child: Text(
                 "Done",
