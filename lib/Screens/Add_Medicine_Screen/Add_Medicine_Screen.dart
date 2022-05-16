@@ -46,7 +46,8 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+           padding: const EdgeInsets.only(
+              left: 20.0, right: 20.0, top: 30.0, bottom: 30.0),
           child: Column(
             children: [
               Container(
