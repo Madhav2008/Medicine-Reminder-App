@@ -10,36 +10,40 @@ class Medicines extends StatelessWidget {
     return ListView.builder(
       itemCount: medi.length,
       itemBuilder: (context, i) {
-        return ListTile(
-          tileColor: Colors.white,
-          leading: Image.asset(medi[i].avatar),
-          title: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text(
-                medi[i].name,
-                style: TextStyle(
-                  fontWeight: FontWeight.w900,
-                  fontSize: 20,
-                  letterSpacing: 1,
-                ),
+        return Column(
+          children: [
+            ListTile(
+              tileColor: Colors.white,
+              leading: Image.asset(medi[i].avatar),
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text(
+                    medi[i].name,
+                    style: TextStyle(
+                      fontWeight: FontWeight.w900,
+                      fontSize: 20,
+                      letterSpacing: 1,
+                    ),
+                  ),
+                  Text(
+                    medi[i].time,
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 14.0,
+                    ),
+                  ),
+                ],
               ),
-              Text(
-                medi[i].time,
+              subtitle: Text(
+                medi[i].info,
                 style: TextStyle(
                   color: Colors.grey,
-                  fontSize: 14.0,
+                  fontSize: 15,
                 ),
               ),
-            ],
-          ),
-          subtitle: Text(
-            medi[i].info,
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 15,
             ),
-          ),
+          ],
         );
         // return MedicineCard(
         //   avatar: medi[i].avatar,
