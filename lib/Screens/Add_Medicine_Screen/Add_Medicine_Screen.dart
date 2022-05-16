@@ -28,9 +28,6 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
       body: Column(
         children: const [
-          SizedBox(
-            height: 10,
-          ),
           TextField(
             decoration: InputDecoration(
               labelText: 'Medicine Name',
