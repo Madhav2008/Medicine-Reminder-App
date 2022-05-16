@@ -246,4 +246,21 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
     );
   }
+  Future<void> openTimePicker() async {
+    await showTimePicker(
+            context: context,
+            initialTime: TimeOfDay.now(),
+            helpText: "Choose Time")
+        .then((value) {
+      DateTime newDate = DateTime(
+          setDate.year,
+          setDate.month,
+          setDate.day,
+          value != null ? value.hour : setDate.hour,
+          value != null ? value.minute : setDate.minute);
+      setState(() => setDate = newDate);
+      print(newDate.hour);
+      print(newDate.minute);
+    });
+  }
 }
