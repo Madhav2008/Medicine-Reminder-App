@@ -15,6 +15,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
     'mg',
   ];
   String? _currentItemSelected = 'pills';
+   DateTime setDate = DateTime.now();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
