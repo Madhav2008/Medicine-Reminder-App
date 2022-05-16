@@ -68,6 +68,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 ),
               ],
             ),
+            Medicines()
             SizedBox(
               height: deviceHeight * 0.03,
             ),
