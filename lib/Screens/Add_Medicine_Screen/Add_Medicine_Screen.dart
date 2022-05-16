@@ -166,7 +166,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 Expanded(
                   child: Container(
                     height: double.infinity,
-                    child: PlatformFlatButton(
+                    child: FlatButton(
                       handler: () => openTimePicker(),
                       buttonChild: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
