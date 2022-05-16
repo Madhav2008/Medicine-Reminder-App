@@ -140,6 +140,17 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           SizedBox(
             height: 20,
           ),
+          Container(
+                height: 100,
+                child: ListView(
+                  shrinkWrap: true,
+                  scrollDirection: Axis.horizontal,
+                  children: <Widget>[
+                    ...medicineTypes.map(
+                        (type) => MedicineTypeCard(type, medicineTypeClick))
+                  ],
+                ),
+              ),
         ],
       ),
     );
