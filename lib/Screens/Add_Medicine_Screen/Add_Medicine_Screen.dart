@@ -39,7 +39,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 labelStyle: TextStyle(color: Colors.grey),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
-                    color: Colors.grey,
+                    color: Colors.grey.shade400,
                     width: 0.0,
                   ),
                 ),
