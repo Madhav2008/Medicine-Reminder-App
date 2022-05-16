@@ -193,9 +193,10 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                               Text(
                                 DateFormat.Hm().format(this.setDate),
                                 style: TextStyle(
-                                    fontSize: 32.0,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500,),
+                                  fontSize: 32.0,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w500,
+                                ),
                               ),
                               SizedBox(width: 5),
                               Icon(
