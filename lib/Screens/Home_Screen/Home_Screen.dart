@@ -165,7 +165,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   'https://assets2.lottiefiles.com/packages/lf20_awc77jfz.json',
                   width: 200,
                   height: 200,
-                ):
+                ),
                 //         : SizedBox(
                 //             width: double.infinity,
                 //             // height: 100,
