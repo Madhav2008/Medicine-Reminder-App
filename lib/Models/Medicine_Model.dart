@@ -27,7 +27,7 @@ List<MedicineModel> medi = [
   ),
   MedicineModel(
     avatar: '../assets/images/cream.png',
-    name: 'Metafen',
+    name: 'Ibuprofen',
     info: '10 Cream',
     time: '18:00',
   ),
