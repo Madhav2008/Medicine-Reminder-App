@@ -185,7 +185,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               ],
                             ),
                           )
-                    : ListView()
+                    : ListView(
+                      children: [],
+                    )
               ],
             ),
           ),
