@@ -61,7 +61,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: MediaQuery.of(context).size.width - 200,
                   child: TextField(
                     decoration: InputDecoration(
-                      labelText: 'Medicine Name',
+                      labelText: 'Medicine Amount',
                       labelStyle: TextStyle(color: Colors.grey.shade700),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
