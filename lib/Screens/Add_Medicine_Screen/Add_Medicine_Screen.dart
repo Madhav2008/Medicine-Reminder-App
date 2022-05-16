@@ -27,6 +27,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         ),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
             width: MediaQuery.of(context).size.width - 100,
