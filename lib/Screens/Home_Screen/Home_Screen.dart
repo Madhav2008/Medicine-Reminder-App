@@ -187,14 +187,14 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           )
                     : Column(
-                      children: [
-                        Lottie.network(
+                        children: [
+                          Lottie.network(
                             'https://assets2.lottiefiles.com/packages/lf20_svlw4qzf.json',
                             width: 200,
                             height: 200,
                           ),
-                      ],
-                    ),
+                        ],
+                      ),
                 // Medicines(),
               ],
             ),
