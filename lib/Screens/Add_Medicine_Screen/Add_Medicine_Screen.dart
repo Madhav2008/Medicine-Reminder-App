@@ -157,7 +157,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           ),
           Container(
             width: double.infinity,
-            height: deviceHeight * 0.1,
+            height: MediaQuery.of(context).size.height * 0.1,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -225,7 +225,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           ),
           Spacer(),
           Container(
-            height: deviceHeight * 0.09,
+            height: MediaQuery.of(context).size.height * 0.09,
             width: double.infinity,
             child: PlatformFlatButton(
               handler: () async => savePill(),
