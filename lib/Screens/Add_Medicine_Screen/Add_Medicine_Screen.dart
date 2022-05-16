@@ -238,7 +238,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                         fontSize: 17.0),
                   ),
                 ),
-              )
+              ),
         ],
       ),
     );
