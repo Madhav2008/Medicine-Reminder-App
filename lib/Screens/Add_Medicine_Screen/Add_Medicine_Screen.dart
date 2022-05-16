@@ -264,4 +264,23 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       print(newDate.minute);
     });
   }
+  Future<void> openDatePicker() async {
+    await showDatePicker(
+            context: context,
+            initialDate: setDate,
+            firstDate: DateTime.now(),
+            lastDate: DateTime.now().add(Duration(days: 100000)))
+        .then((value) {
+      DateTime newDate = DateTime(
+          value != null ? value.year : setDate.year,
+          value != null ? value.month : setDate.month,
+          value != null ? value.day : setDate.day,
+          setDate.hour,
+          setDate.minute);
+      setState(() => setDate = newDate);
+      print(setDate.day);
+      print(setDate.month);
+      print(setDate.year);
+    });
+  }
 }
