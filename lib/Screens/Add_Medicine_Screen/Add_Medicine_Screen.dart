@@ -156,89 +156,89 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
             height: 20,
           ),
           Container(
-                width: double.infinity,
-                height: deviceHeight * 0.1,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: Container(
-                        height: double.infinity,
-                        child: PlatformFlatButton(
-                          handler: () => openTimePicker(),
-                          buttonChild: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              SizedBox(width: 10),
-                              Text(
-                                DateFormat.Hm().format(this.setDate),
-                                style: TextStyle(
-                                    fontSize: 32.0,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500),
-                              ),
-                              SizedBox(width: 5),
-                              Icon(
-                                Icons.access_time,
-                                size: 30,
-                                color: Theme.of(context).primaryColor,
-                              )
-                            ],
+            width: double.infinity,
+            height: deviceHeight * 0.1,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Container(
+                    height: double.infinity,
+                    child: PlatformFlatButton(
+                      handler: () => openTimePicker(),
+                      buttonChild: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          SizedBox(width: 10),
+                          Text(
+                            DateFormat.Hm().format(this.setDate),
+                            style: TextStyle(
+                                fontSize: 32.0,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500),
                           ),
-                          color: Color.fromRGBO(7, 190, 200, 0.1),
-                        ),
+                          SizedBox(width: 5),
+                          Icon(
+                            Icons.access_time,
+                            size: 30,
+                            color: Theme.of(context).primaryColor,
+                          )
+                        ],
                       ),
+                      color: Color.fromRGBO(7, 190, 200, 0.1),
                     ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: double.infinity,
-                        child: PlatformFlatButton(
-                          handler: () => openDatePicker(),
-                          buttonChild: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              SizedBox(width: 10),
-                              Text(
-                                DateFormat("dd.MM").format(this.setDate),
-                                style: TextStyle(
-                                    fontSize: 32.0,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500),
-                              ),
-                              SizedBox(width: 10),
-                              Icon(
-                                Icons.event,
-                                size: 30,
-                                color: Theme.of(context).primaryColor,
-                              )
-                            ],
-                          ),
-                          color: Color.fromRGBO(7, 190, 200, 0.1),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Spacer(),
-              Container(
-                height: deviceHeight * 0.09,
-                width: double.infinity,
-                child: PlatformFlatButton(
-                  handler: () async => savePill(),
-                  color: Theme.of(context).primaryColor,
-                  buttonChild: Text(
-                    "Done",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 17.0),
                   ),
                 ),
+                SizedBox(
+                  width: 20,
+                ),
+                Expanded(
+                  child: Container(
+                    height: double.infinity,
+                    child: PlatformFlatButton(
+                      handler: () => openDatePicker(),
+                      buttonChild: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          SizedBox(width: 10),
+                          Text(
+                            DateFormat("dd.MM").format(this.setDate),
+                            style: TextStyle(
+                                fontSize: 32.0,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500),
+                          ),
+                          SizedBox(width: 10),
+                          Icon(
+                            Icons.event,
+                            size: 30,
+                            color: Theme.of(context).primaryColor,
+                          )
+                        ],
+                      ),
+                      color: Color.fromRGBO(7, 190, 200, 0.1),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Spacer(),
+          Container(
+            height: deviceHeight * 0.09,
+            width: double.infinity,
+            child: PlatformFlatButton(
+              handler: () async => savePill(),
+              color: Theme.of(context).primaryColor,
+              buttonChild: Text(
+                "Done",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                    fontSize: 17.0),
               ),
+            ),
+          ),
         ],
       ),
     );
