@@ -37,7 +37,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.redAccent, width: 0.0),
+                            color: Colors.grey, width: 0.0),
                       ),
             ),
           ),
