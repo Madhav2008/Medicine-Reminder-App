@@ -10,6 +10,37 @@ class Medicines extends StatelessWidget {
     return ListView.builder(
       itemCount: medi.length,
       itemBuilder: (context, i) {
+        return ListTile(
+      tileColor: Colors.white,
+      leading: Image.asset(widget.avatar),
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Text(
+            widget.name,
+            style: TextStyle(
+              fontWeight: FontWeight.w900,
+              fontSize: 20,
+              letterSpacing: 1,
+            ),
+          ),
+          Text(
+            widget.time,
+            style: TextStyle(
+              color: Colors.grey,
+              fontSize: 14.0,
+            ),
+          ),
+        ],
+      ),
+      subtitle: Text(
+        widget.info,
+        style: TextStyle(
+          color: Colors.grey,
+          fontSize: 15,
+        ),
+      ),
+    );
         // return MedicineCard(
         //   avatar: medi[i].avatar,
         //   info: medi[i].info,
