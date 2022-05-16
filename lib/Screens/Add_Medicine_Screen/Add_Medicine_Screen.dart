@@ -29,9 +29,6 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       body: Column(
         children: [
           TextField(
-            decoration: InputDecoration(
-              border: InputBorder.none
-            ),
           ),
         ],
       ),
