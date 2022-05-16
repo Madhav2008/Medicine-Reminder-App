@@ -8,7 +8,7 @@ class Home1Screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        HomeScreen()
+        HomeScreen(),
       ],
     );
   }
