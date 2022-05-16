@@ -227,7 +227,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           Container(
             height: MediaQuery.of(context).size.height * 0.09,
             width: double.infinity,
-            child: mFlatButton(
+            child: FlatButton(
               // handler: () async => savePill(),
               color: Theme.of(context).primaryColor,
               buttonChild: Text(
