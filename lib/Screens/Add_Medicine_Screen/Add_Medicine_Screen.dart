@@ -89,7 +89,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   border: Border(
                     bottom: BorderSide(
                       width: 1.5,
-                      color: one,
+                      // color: one,
                     ),
                   ),
                 ),
@@ -101,7 +101,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       Expanded(
                         child: Center(
                           child: Text(
-                            countryName,
+                            'countryName',
                             style: TextStyle(
                               fontSize: 17,
                             ),
@@ -110,7 +110,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       ),
                       Icon(
                         Icons.arrow_drop_down,
-                        color: one,
+                        // color: one,
                         size: 25,
                       ),
                     ],
