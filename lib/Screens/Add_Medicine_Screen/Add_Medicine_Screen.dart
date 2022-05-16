@@ -26,7 +26,9 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
           color: Colors.black,
         ),
       ),
-      body: Column(),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
