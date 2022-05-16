@@ -32,12 +32,6 @@ List<MedicineModel> medi = [
     time: '18:00',
   ),
   MedicineModel(
-    avatar: '../assets/images/cream.png',
-    name: 'Ibuprofen',
-    info: '10 Cream',
-    time: '18:00',
-  ),
-  MedicineModel(
     avatar: '../assets/images/syringe1.png',
     name: 'IBUM',
     info: '10 syringe',
