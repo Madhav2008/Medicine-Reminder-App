@@ -147,7 +147,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               scrollDirection: Axis.horizontal,
               children: <Widget>[
                 ...medicineTypes
-                    .map((type) => MedicineTypeCard(type, medicineTypeClick))
+                    .map((type) => MedicineTypeCard(type, medicineTypeClick),)
               ],
             ),
           ),
