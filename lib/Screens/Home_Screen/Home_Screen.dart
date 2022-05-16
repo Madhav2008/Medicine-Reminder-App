@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           Text(
                             'No Data Found',
-                            style: TextStyle(),
+                            style: TextStyle(fontSize: 30),
                           ),
                         ],
                       ),
