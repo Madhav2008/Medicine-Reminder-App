@@ -185,11 +185,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ],
                             ),
                           )
-                    : ListView(
-                        children: [
-                          MedicineCard(avatar: avatar, name: name, info: info, time: time)
-                        ],
-                      ),
+                    : Medicines(),
               ],
             ),
           ),
