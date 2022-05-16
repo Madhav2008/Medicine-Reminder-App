@@ -84,27 +84,40 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: 10,
                 ),
                 Container(
-                  width: MediaQuery.of(context).size.width - 305,
-                  child: TextField(
-                    decoration: InputDecoration(
-                      labelText: 'Type',
-                      labelStyle: TextStyle(color: Colors.grey.shade700),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(12),
-                        borderSide: BorderSide(
-                          color: Colors.grey.shade700,
-                          width: 0.0,
-                        ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.grey.shade700,
-                          width: 0.0,
-                        ),
-                      ),
+                width: MediaQuery.of(context).size.width - 100,
+                decoration: BoxDecoration(
+                  border: Border(
+                    bottom: BorderSide(
+                      width: 1.5,
+                      color: one,
                     ),
                   ),
                 ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Expanded(
+                        child: Center(
+                          child: Text(
+                            countryName,
+                            style: TextStyle(
+                              fontSize: 17,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Icon(
+                        Icons.arrow_drop_down,
+                        color: one,
+                        size: 25,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
               ],
             ),
           ),
