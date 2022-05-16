@@ -12,7 +12,7 @@ class Medicines extends StatelessWidget {
     //   itemBuilder: (context, i) {
         return ListTile(
           tileColor: Colors.white,
-          leading: Image.asset(medi[i].avatar),
+          leading: Image.asset(medi[context].avatar),
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
