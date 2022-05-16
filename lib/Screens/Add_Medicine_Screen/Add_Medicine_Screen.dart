@@ -108,7 +108,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   border: Border(
                     bottom: BorderSide(
                       width: 1.5,
-                      color: one,
+                      // color: one,
                     ),
                   ),
                 ),
