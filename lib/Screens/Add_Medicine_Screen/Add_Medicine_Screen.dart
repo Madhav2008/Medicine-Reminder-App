@@ -12,8 +12,6 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
     'pills',
     'ml',
     'mg',
-    'Gujrati Recipe',
-    'Bengali Recipe'
   ];
   String? _currentItemSelected = 'pills';
   @override
