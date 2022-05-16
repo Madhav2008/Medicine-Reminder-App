@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.blueGrey,
       ),
       home: OnboardingScreen(),
     );
