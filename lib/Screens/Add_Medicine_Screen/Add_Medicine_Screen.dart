@@ -30,7 +30,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         children: const [
           Padding(
             padding: EdgeInsets.symmetric(
-              horizontal: 10.0,
+              horizontal: 20.0,
               vertical: 10.0,
             ),
             child: TextField(
