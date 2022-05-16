@@ -91,6 +91,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width - 305,
+                  decoration: BoxDecoration(),
                   child: DropdownButton<String>(
                     items: _category.map((String dropDownStringItem) {
                       return DropdownMenuItem<String>(
