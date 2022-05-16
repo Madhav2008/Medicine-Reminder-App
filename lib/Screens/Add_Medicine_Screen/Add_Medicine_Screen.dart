@@ -118,6 +118,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               ],
             ),
           ),
+          SizedBox(height: 20,)
           Container(
             height: MediaQuery.of(context).size.height * 0.035,
             child: Padding(
