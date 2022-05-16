@@ -33,7 +33,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               labelText: 'Medicine Name',
               enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.redAccent, width: 0.0),
+                            color: Colors.grey, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(
