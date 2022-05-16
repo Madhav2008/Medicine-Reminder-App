@@ -84,39 +84,39 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: 10,
                 ),
                 Container(
-                width: MediaQuery.of(context).size.width - 305,
-                decoration: BoxDecoration(
-                  border: Border(
-                    bottom: BorderSide(
-                      width: 1.5,
-                      // color: one,
+                  width: MediaQuery.of(context).size.width - 305,
+                  decoration: BoxDecoration(
+                    border: Border(
+                      bottom: BorderSide(
+                        width: 1.5,
+                        // color: one,
+                      ),
                     ),
                   ),
-                ),
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Expanded(
-                        child: Center(
-                          child: Text(
-                            'countryName',
-                            style: TextStyle(
-                              fontSize: 17,
+                  child: Padding(
+                    padding: EdgeInsets.all(10.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Expanded(
+                          child: Center(
+                            child: Text(
+                              'countryName',
+                              style: TextStyle(
+                                fontSize: 17,
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Icon(
-                        Icons.arrow_drop_down,
-                        // color: one,
-                        size: 25,
-                      ),
-                    ],
+                        Icon(
+                          Icons.arrow_drop_down,
+                          // color: one,
+                          size: 25,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
-              ),
               ],
             ),
           ),
