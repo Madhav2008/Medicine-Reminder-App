@@ -28,20 +28,23 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
       body: Column(
         children: const [
-          TextField(
-            decoration: InputDecoration(
-              labelText: 'Medicine Name',
-              labelStyle: TextStyle(color: Colors.grey),
-              enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Colors.grey,
-                  width: 0.0,
+          Padding(
+            padding: EdgeInsets.all(10.0),
+            child: TextField(
+              decoration: InputDecoration(
+                labelText: 'Medicine Name',
+                labelStyle: TextStyle(color: Colors.grey),
+                enabledBorder: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.grey,
+                    width: 0.0,
+                  ),
                 ),
-              ),
-              focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Colors.grey,
-                  width: 0.0,
+                focusedBorder: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.grey,
+                    width: 0.0,
+                  ),
                 ),
               ),
             ),
