@@ -10,7 +10,7 @@ class AddMedicineScreen extends StatefulWidget {
 class _AddMedicineScreenState extends State<AddMedicineScreen> {
   var _category = [
     'pills',
-    'Punjabi Recipe',
+    'ml',
     'Chinese Recipe',
     'Gujrati Recipe',
     'Bengali Recipe'
