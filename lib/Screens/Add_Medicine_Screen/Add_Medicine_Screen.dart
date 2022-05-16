@@ -84,7 +84,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: 10,
                 ),
                 GestureDetector(
-                  onTap: (){},
+                  onTap: () {},
                   child: Container(
                     width: MediaQuery.of(context).size.width - 305,
                     decoration: BoxDecoration(
