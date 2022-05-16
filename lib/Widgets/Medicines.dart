@@ -25,7 +25,7 @@ class Medicines extends StatelessWidget {
             ),
           ),
           Text(
-            widget.time,
+            medi[i].time,
             style: TextStyle(
               color: Colors.grey,
               fontSize: 14.0,
