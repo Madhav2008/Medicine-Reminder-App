@@ -193,7 +193,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             width: 200,
                             height: 200,
                           ),
-                          SizedBox(height: 10,)
+                          SizedBox(height: 10,),
                         ],
                       ),
                 // Medicines(),
