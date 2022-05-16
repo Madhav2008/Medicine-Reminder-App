@@ -234,9 +234,10 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               child: Text(
                 "Done",
                 style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w600,
-                    fontSize: 17.0,),
+                  color: Colors.white,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 17.0,
+                ),
               ),
             ),
           ),
