@@ -148,7 +148,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
               children: <Widget>[
                 ...medicineTypes.map(
                   (type) => MedicineTypeCard(type, medicineTypeClick),
-                )
+                ),
               ],
             ),
           ),
