@@ -162,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 //     ? isEmpty
                 //         ?
                 Lottie.network(
-                  'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
+                  'https://assets2.lottiefiles.com/packages/lf20_awc77jfz.json',
                   width: 200,
                   height: 200,
                 ),
