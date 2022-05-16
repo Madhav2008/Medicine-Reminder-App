@@ -41,6 +41,6 @@ List<MedicineModel> medi = [
     avatar: '../assets/images/syringe1.png',
     name: 'IBUM',
     info: '10 syringe',
-    time: '18:00',
+    time: '19:15',
   ),
 ];
