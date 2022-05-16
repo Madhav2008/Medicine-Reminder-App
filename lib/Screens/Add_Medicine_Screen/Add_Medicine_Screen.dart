@@ -84,7 +84,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: 10,
                 ),
                 Container(
-                width: MediaQuery.of(context).size.width - 100,
+                width: MediaQuery.of(context).size.width - 305,
                 decoration: BoxDecoration(
                   border: Border(
                     bottom: BorderSide(
