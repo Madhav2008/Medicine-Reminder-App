@@ -9,7 +9,7 @@ class OnboardingScreen extends StatefulWidget {
   State<OnboardingScreen> createState() => _OnboardingScreenState();
 }
 
-class _OnboardingScreenState extends State<OnboardingScreen>with SingleTickerProviderStateMixin {
+class _OnboardingScreenState extends State<OnboardingScreen>1 {
   @override
   Widget build(BuildContext context) {
     final double deviceHeight =
