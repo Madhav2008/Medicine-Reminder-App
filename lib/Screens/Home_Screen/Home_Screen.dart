@@ -186,7 +186,11 @@ class _HomeScreenState extends State<HomeScreen> {
                               ],
                             ),
                           )
-                    : 
+                    : Lottie.network(
+                        'https://assets2.lottiefiles.com/packages/lf20_r71cen62.json',
+                        width: 200,
+                        height: 200,
+                      ),
                     // Medicines(),
               ],
             ),
