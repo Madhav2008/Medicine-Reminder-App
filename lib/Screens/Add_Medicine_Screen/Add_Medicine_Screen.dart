@@ -78,7 +78,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   width: 30,
                 ),
                 Container(
-                  width: MediaQuery.of(context).size.width-180,
+                  width: MediaQuery.of(context).size.width - 180,
                   child: TextField(
                     decoration: InputDecoration(
                       labelText: 'Medicine Amount',
