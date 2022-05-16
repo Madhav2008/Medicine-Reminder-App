@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Medicine Reminder',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+      primaryColor: Color.fromRGBO(7, 190, 200, 1),,
         // primarySwatch: Colors.blueGrey,
         primarySwatch: Color(0xFF07BEC8),
         primarySwatch: Color.fromRGBO(7, 190, 200, 1),
