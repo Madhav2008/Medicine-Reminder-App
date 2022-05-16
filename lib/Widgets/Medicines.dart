@@ -17,7 +17,7 @@ class Medicines extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            widget.name,
+            medi[i].name,
             style: TextStyle(
               fontWeight: FontWeight.w900,
               fontSize: 20,
