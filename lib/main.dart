@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Medicine Reminder',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-      primaryColor: Color.fromRGBO(7, 190, 200, 1),,
+      primaryColor: Color.fromRGBO(7, 190, 200, 1),
       ),
       home: OnboardingScreen(),
     );
