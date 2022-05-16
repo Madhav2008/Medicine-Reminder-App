@@ -159,13 +159,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 // Medicines(),
                 isLoading
-                //     ? isEmpty
-                        ? Text('loading'):
-                Lottie.network(
-                  'https://assets2.lottiefiles.com/packages/lf20_awc77jfz.json',
-                  width: 200,
-                  height: 200,
-                ),
+                    //     ? isEmpty
+                    ? Text('loading')
+                    : Lottie.network(
+                        'https://assets2.lottiefiles.com/packages/lf20_awc77jfz.json',
+                        width: 200,
+                        height: 200,
+                      ),
                 //         : SizedBox(
                 //             width: double.infinity,
                 //             // height: 100,
