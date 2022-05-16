@@ -148,14 +148,14 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       border: Border(
                         bottom: BorderSide(
                           width: 1.5,
-                          color: one,
+                          // color: one,
                         ),
                       ),
                     ),
                     child: Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Text(
-                        countryCode,
+                        'countryCode',
                         style: TextStyle(
                           fontSize: 17,
                         ),
@@ -170,7 +170,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     decoration: BoxDecoration(
                       border: Border(
                         bottom: BorderSide(
-                          color: one,
+                          // color: one,
                         ),
                       ),
                     ),
