@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_reminder_app/Widgets/Form_Fields.dart';
 
 class AddMedicineScreen extends StatefulWidget {
   const AddMedicineScreen({Key? key}) : super(key: key);
@@ -29,7 +28,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
       body: Column(
         children: [
-          FormFields(howManyWeeks, selectWeight, onPopUpMenuChanged, onSliderChanged, nameController, amountController)
+          FormF
         ],
       ),
     );
