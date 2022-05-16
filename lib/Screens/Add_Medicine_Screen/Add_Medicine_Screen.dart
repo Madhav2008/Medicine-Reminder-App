@@ -177,7 +177,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     child: TextField(
                       // controller: _phoneController,
                       autofocus: true,
-                      cursorColor: one,
+                      // cursorColor: one,
                       keyboardType: TextInputType.number,
                       decoration: InputDecoration(
                         counter: Offstage(),
