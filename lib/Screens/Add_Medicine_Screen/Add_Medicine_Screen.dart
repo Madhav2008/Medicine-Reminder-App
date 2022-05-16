@@ -98,19 +98,21 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                       color: Colors.grey.shade700,
                     ),
                   ),
-                  child: DropdownButton<String>(
-                    items: _category.map((String dropDownStringItem) {
-                      return DropdownMenuItem<String>(
-                        value: dropDownStringItem,
-                        child: Text(dropDownStringItem),
-                      );
-                    }).toList(),
-                    onChanged: (String? _newValueSelected) {
-                      setState(() {
-                        _currentItemSelected = _newValueSelected;
-                      });
-                    },
-                    value: _currentItemSelected,
+                  child: Center(
+                    child: DropdownButton<String>(
+                      items: _category.map((String dropDownStringItem) {
+                        return DropdownMenuItem<String>(
+                          value: dropDownStringItem,
+                          child: Text(dropDownStringItem),
+                        );
+                      }).toList(),
+                      onChanged: (String? _newValueSelected) {
+                        setState(() {
+                          _currentItemSelected = _newValueSelected;
+                        });
+                      },
+                      value: _currentItemSelected,
+                    ),
                   ),
                 ),
               ],
