@@ -280,6 +280,12 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       print(newDate.minute);
     });
   }
+  void medicineTypeClick(MedicineType medicine) {
+    setState(() {
+      medicineTypes.forEach((medicineType) => medicineType.isChoose = false);
+      medicineTypes[medicineTypes.indexOf(medicine)].isChoose = true;
+    });
+  }
 
   Future<void> openDatePicker() async {
     await showDatePicker(
