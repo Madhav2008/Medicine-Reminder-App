@@ -103,7 +103,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                           _currentItemSelected = _newValueSelected;
                         });
                       },
-                      value: _currentItemSelected),
+                      value: _currentItemSelected,),
                 ),
               ],
             ),
