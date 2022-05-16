@@ -11,7 +11,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
   var _category = [
     'pills',
     'ml',
-    'Chinese Recipe',
+    'mg',
     'Gujrati Recipe',
     'Bengali Recipe'
   ];
