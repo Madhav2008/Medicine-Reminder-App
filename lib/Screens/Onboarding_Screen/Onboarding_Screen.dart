@@ -81,7 +81,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => AddMedicineScreen(),
+                        builder: (context) => HomeScreen(),
                       ),
                     );
                   },
