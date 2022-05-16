@@ -27,7 +27,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         ),
       ),
       body: Column(
-        children: [
+        children: const [
           TextField(
             decoration: InputDecoration(
               labelText: 'Medicine Name',
