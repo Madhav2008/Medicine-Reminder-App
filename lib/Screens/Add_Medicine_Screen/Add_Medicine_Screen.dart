@@ -77,21 +77,23 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                 SizedBox(
                   width: 30,
                 ),
-                TextField(
-                  decoration: InputDecoration(
-                    labelText: 'Medicine Amount',
-                    labelStyle: TextStyle(color: Colors.grey.shade700),
-                    enabledBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(12),
-                      borderSide: BorderSide(
-                        color: Colors.grey.shade700,
-                        width: 0.0,
+                Container(
+                  child: TextField(
+                    decoration: InputDecoration(
+                      labelText: 'Medicine Amount',
+                      labelStyle: TextStyle(color: Colors.grey.shade700),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide(
+                          color: Colors.grey.shade700,
+                          width: 0.0,
+                        ),
                       ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: Colors.grey.shade700,
-                        width: 0.0,
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.grey.shade700,
+                          width: 0.0,
+                        ),
                       ),
                     ),
                   ),
