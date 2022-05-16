@@ -28,7 +28,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
       body: Column(
         children: [
-          FormField()
+          FormField(builder: (FormFieldState<dynamic> field) {  },)
         ],
       ),
     );
