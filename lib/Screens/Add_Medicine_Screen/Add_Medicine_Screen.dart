@@ -30,7 +30,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
         children: [
           TextField(
             decoration: InputDecoration(
-              border: BorderSide.none,
+              border: Border.all(color: Colors.grey,),
             ),
           ),
         ],
