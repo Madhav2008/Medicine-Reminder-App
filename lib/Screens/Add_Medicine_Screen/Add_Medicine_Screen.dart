@@ -15,7 +15,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
     'Gujrati Recipe',
     'Bengali Recipe'
   ];
-  String? _currentItemSelected = 'Italian Recipe';
+  String? _currentItemSelected = 'pills';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
