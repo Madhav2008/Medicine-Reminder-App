@@ -25,7 +25,7 @@ class _CalendarDayState extends State<CalendarDay> {
             style: TextStyle(
                 color: Colors.grey[500],
                 fontSize: 17.0,
-                fontWeight: FontWeight.w400),
+                fontWeight: FontWeight.w400,),
           ),
           SizedBox(
             height: constrains.maxHeight * 0.1,
