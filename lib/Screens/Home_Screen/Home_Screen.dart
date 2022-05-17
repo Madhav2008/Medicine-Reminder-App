@@ -189,7 +189,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                   text: const ["Loading..."],
                                   isRepeatingAnimation: true,
-                                  speed: const Duration(milliseconds: 150),
+                                  speed: const Duration(milliseconds: 150,),
                                 ),
                               ],
                             ),
