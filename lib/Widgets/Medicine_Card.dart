@@ -31,7 +31,7 @@ class _MedicineCardState extends State<MedicineCard> {
         children: <Widget>[
           Text(
             widget.name,
-            style: TextStyle(
+            style: const TextStyle(
               fontWeight: FontWeight.w900,
               fontSize: 20,
               letterSpacing: 1,
