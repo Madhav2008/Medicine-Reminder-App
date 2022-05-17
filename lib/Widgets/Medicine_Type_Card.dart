@@ -28,7 +28,7 @@ class MedicineTypeCard extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 5.0,
                 ),
                 Container(width: 50, height: 50.0, child: pillType.image),
