@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color.fromRGBO(7, 190, 200, 1),
         // primarySwatch: Colors.blueGrey,
       ),
-      home: OnboardingScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }
