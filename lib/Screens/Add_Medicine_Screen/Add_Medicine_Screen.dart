@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, sized_box_for_whitespace, deprecated_member_use, avoid_print
+// ignore_for_file: file_names, sized_box_for_whitespace, deprecated_member_use, avoid_print, avoid_function_literals_in_foreach_calls
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
