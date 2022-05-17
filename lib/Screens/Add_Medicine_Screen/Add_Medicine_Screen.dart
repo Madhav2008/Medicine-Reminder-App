@@ -238,7 +238,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                                   fontWeight: FontWeight.w500,
                                 ),
                               ),
-                              SizedBox(width: 10),
+                              const SizedBox(width: 10),
                               Icon(
                                 Icons.event,
                                 size: 30,
