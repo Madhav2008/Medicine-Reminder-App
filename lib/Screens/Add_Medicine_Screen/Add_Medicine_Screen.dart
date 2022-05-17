@@ -231,7 +231,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                                 width: 10,
                               ),
                               Text(
-                                DateFormat("dd.MM").format(this.setDate),
+                                DateFormat("dd.MM").format(setDate),
                                 style: TextStyle(
                                   fontSize: 32.0,
                                   color: Colors.black,
