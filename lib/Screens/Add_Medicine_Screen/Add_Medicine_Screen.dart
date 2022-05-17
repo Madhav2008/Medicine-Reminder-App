@@ -227,7 +227,9 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              const SizedBox(width: 10,),
+                              const SizedBox(
+                                width: 10,
+                              ),
                               Text(
                                 DateFormat("dd.MM").format(this.setDate),
                                 style: TextStyle(
