@@ -21,7 +21,7 @@ class MedicineTypeCard extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
               color: pillType.isChoose
-                  ? Color.fromRGBO(7, 190, 200, 1)
+                  ? const Color.fromRGBO(7, 190, 200, 1)
                   : Colors.white,
             ),
             width: 100,
