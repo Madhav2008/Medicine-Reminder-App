@@ -35,7 +35,7 @@ class PlatformSlider extends StatelessWidget {
             max: max.toDouble(),
             min: min.toDouble(),
             divisions: divisions,
-            activeColor: this.color,
+            activeColor: color,
           );
   }
 }
