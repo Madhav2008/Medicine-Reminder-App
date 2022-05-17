@@ -152,7 +152,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: deviceHeight * 0.01,
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 5.0,),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 5.0,
+                  ),
                   child: Calendar(chooseDay, _daysList),
                 ),
                 Padding(
