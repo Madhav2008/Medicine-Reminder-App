@@ -7,7 +7,7 @@ class CalendarDay extends StatefulWidget {
   final CalendarDayModel day;
   final Function onDayClick;
 
-  CalendarDay(this.day, this.onDayClick);
+  const CalendarDay(this.day, this.onDayClick);
 
   @override
   _CalendarDayState createState() => _CalendarDayState();
