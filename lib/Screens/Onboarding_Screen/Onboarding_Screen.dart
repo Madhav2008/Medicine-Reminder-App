@@ -88,7 +88,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     );
                   },
                   color: Theme.of(context).primaryColor,
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       "Get started now",
                       style: TextStyle(
