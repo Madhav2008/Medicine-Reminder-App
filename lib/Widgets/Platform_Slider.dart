@@ -27,7 +27,7 @@ class PlatformSlider extends StatelessWidget {
             min: min.toDouble(),
             divisions: divisions,
             activeColor: Theme.of(context).primaryColor,
-            value: this.value.toDouble(),
+            value: value.toDouble(),
           )
         : Slider(
             value: this.value.toDouble(),
