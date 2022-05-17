@@ -105,7 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
-            padding: EdgeInsets.only(
+            padding: const EdgeInsets.only(
               top: 0.0,
               left: 25.0,
               right: 25.0,
