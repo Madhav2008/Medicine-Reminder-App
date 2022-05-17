@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   startTime() async {
     var _duration = const Duration(seconds: 2);
-    return new Timer(
+    return Timer(
       _duration,
       (() => Lottie.network(
             'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
