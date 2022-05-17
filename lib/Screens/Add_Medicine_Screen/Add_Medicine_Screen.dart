@@ -13,7 +13,7 @@ class AddMedicineScreen extends StatefulWidget {
 }
 
 class _AddMedicineScreenState extends State<AddMedicineScreen> {
-  var _category = [
+  final _category = [
     'pills',
     'ml',
     'mg',
