@@ -232,7 +232,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                               ),
                               Text(
                                 DateFormat("dd.MM").format(setDate),
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 32.0,
                                   color: Colors.black,
                                   fontWeight: FontWeight.w500,
