@@ -23,7 +23,7 @@ class PlatformSlider extends StatelessWidget {
     return Platform.isIOS
         ? CupertinoSlider(
             onChanged: (value) => handler(value),
-            max: this.max.toDouble(),
+            max: max.toDouble(),
             min: this.min.toDouble(),
             divisions: this.divisions,
             activeColor: Theme.of(context).primaryColor,
