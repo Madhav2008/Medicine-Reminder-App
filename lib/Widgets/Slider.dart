@@ -22,7 +22,7 @@ class UserSlider extends StatelessWidget {
             max: 10,
             value: howManyWeeks,
             color: Theme.of(context).primaryColor,
-            handler: this.handler,
+            handler: handler,
           ),
         ),
       ],
