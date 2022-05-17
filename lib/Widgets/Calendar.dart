@@ -7,7 +7,7 @@ import 'package:medicine_reminder_app/Widgets/Calendar_Day.dart';
 class Calendar extends StatefulWidget {
   final Function chooseDay;
   final List<CalendarDayModel> _daysList;
-  const Calendar(this.chooseDay,this._daysList);
+  const Calendar(this.chooseDay, this._daysList);
   @override
   _CalendarState createState() => _CalendarState();
 }
@@ -27,9 +27,10 @@ class _CalendarState extends State<Calendar> {
       height: deviceHeight * 0.11,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [...widget._daysList.map((day) => CalendarDay(day, widget.chooseDay))],
+        children: [
+          ...widget._daysList.map((day) => CalendarDay(day, widget.chooseDay))
+        ],
       ),
     );
   }
-
 }
