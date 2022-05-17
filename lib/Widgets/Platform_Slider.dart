@@ -9,7 +9,7 @@ class PlatformSlider extends StatelessWidget {
   final Function handler;
   final Color color;
 
-  PlatformSlider({
+  const PlatformSlider({
     required this.value,
     required this.handler,
     required this.color,
