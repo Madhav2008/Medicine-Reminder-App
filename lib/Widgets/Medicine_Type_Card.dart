@@ -46,7 +46,7 @@ class MedicineTypeCard extends StatelessWidget {
                     color: pillType.isChoose ? Colors.white : Colors.black,
                     fontWeight: FontWeight.w500,
                   ),
-                )),
+                ),),
               ],
             ),
           ),
