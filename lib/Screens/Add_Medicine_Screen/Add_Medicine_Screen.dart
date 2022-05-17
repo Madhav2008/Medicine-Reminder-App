@@ -312,12 +312,13 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
 
   Future<void> openDatePicker() async {
     await showDatePicker(
-        context: context,
-        initialDate: setDate,
-        firstDate: DateTime.now(),
-        lastDate: DateTime.now().add(
-          const Duration(days: 100000),
-        ),).then((value) {
+      context: context,
+      initialDate: setDate,
+      firstDate: DateTime.now(),
+      lastDate: DateTime.now().add(
+        const Duration(days: 100000),
+      ),
+    ).then((value) {
       DateTime newDate = DateTime(
           value != null ? value.year : setDate.year,
           value != null ? value.month : setDate.month,
