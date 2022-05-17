@@ -260,7 +260,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   ],
                 ),
               ),
-              Spacer(),
+              const Spacer(),
               Container(
                 height: MediaQuery.of(context).size.height * 0.09,
                 width: double.infinity,
