@@ -35,8 +35,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               children: [
                 Container(
                   height: deviceHeight * 0.15,
-                  child: Padding(
-                    padding: const EdgeInsets.only(left: 40.0, right: 40.0),
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 40.0, right: 40.0),
                     child:
                         // AutoSizeText(
                         Text(
