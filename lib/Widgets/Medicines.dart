@@ -39,7 +39,7 @@ class Medicines extends StatelessWidget {
               ),
               subtitle: Text(
                 medi[i].info,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.grey,
                   fontSize: 15,
                 ),
