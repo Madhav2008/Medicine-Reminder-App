@@ -36,7 +36,7 @@ class MedicineTypeCard extends StatelessWidget {
                   height: 50.0,
                   child: pillType.image,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 7.0,
                 ),
                 Container(
