@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animated_widgets/animated_widgets.dart';
 // import 'package:flutter_local_notifications/flutter_local_notifications.dart';
