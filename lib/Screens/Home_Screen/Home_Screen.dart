@@ -137,7 +137,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           duration: const Duration(milliseconds: 2000),
                           curve: Curves.linear,
                           shakeAngle: Rotation.deg(z: 30),
-                          child: Icon(
+                          child: const Icon(
                             Icons.notifications_none,
                             size: 42.0,
                           ),
