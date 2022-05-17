@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         );
       },
-      child: Icon(
+      child: const Icon(
         Icons.add,
         color: Colors.white,
         size: 24.0,
