@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'MEDICO',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color.fromRGBO(7, 190, 200, 1),
+        primaryColor: const Color.fromRGBO(7, 190, 200, 1),
         // primarySwatch: Colors.blueGrey,
       ),
       home: const OnboardingScreen(),
