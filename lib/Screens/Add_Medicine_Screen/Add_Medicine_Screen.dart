@@ -320,11 +320,12 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
       ),
     ).then((value) {
       DateTime newDate = DateTime(
-          value != null ? value.year : setDate.year,
-          value != null ? value.month : setDate.month,
-          value != null ? value.day : setDate.day,
-          setDate.hour,
-          setDate.minute,);
+        value != null ? value.year : setDate.year,
+        value != null ? value.month : setDate.month,
+        value != null ? value.day : setDate.day,
+        setDate.hour,
+        setDate.minute,
+      );
       setState(() => setDate = newDate);
       print(setDate.day);
       print(setDate.month);
