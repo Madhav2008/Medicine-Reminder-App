@@ -186,6 +186,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     Expanded(
                       child: Container(
                         height: double.infinity,
+                        // ignore: deprecated_member_use
                         child: FlatButton(
                           onPressed: () => openTimePicker(),
                           child: Row(
