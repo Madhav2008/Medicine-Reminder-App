@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _duration,
       (() => Lottie.network(
             'https://assets10.lottiefiles.com/packages/lf20_awc77jfz.json',
-          ),),
+          )),
     );
   }
 
@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (builder) => AddMedicineScreen(),
+            builder: (builder) => const AddMedicineScreen(),
           ),
         );
       },
