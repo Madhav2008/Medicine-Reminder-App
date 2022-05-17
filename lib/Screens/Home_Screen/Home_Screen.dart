@@ -187,7 +187,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black,
                                   ),
-                                  text: ["Loading..."],
+                                  text: const ["Loading..."],
                                   isRepeatingAnimation: true,
                                   speed: const Duration(milliseconds: 150),
                                 ),
