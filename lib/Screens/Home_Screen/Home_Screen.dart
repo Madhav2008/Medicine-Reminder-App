@@ -206,7 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           const SizedBox(
                             height: 10,
                           ),
-                          Text(
+                          const Text(
                             'No Data Found',
                             style: TextStyle(
                               fontSize: 30,
