@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_reminder_app/Screens/Add_Medicine_Screen/Add_Medicine_Screen.dart';
+// import 'package:medicine_reminder_app/Screens/Add_Medicine_Screen/Add_Medicine_Screen.dart';
 import 'package:medicine_reminder_app/Screens/Home_Screen/Home_Screen.dart';
 
 class OnboardingScreen extends StatefulWidget {
