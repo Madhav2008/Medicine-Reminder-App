@@ -203,7 +203,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             width: 200,
                             height: 200,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           Text(
