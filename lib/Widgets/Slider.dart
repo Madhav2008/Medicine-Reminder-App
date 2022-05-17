@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:medicine_reminder_app/Widgets/Platform_Slider.dart';
 
