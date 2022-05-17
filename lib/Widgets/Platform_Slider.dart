@@ -24,7 +24,7 @@ class PlatformSlider extends StatelessWidget {
         ? CupertinoSlider(
             onChanged: (value) => handler(value),
             max: max.toDouble(),
-            min: this.min.toDouble(),
+            min: min.toDouble(),
             divisions: this.divisions,
             activeColor: Theme.of(context).primaryColor,
             value: this.value.toDouble(),
