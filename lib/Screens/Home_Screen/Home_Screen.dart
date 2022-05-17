@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: deviceHeight * 0.04,
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 5.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 5.0),
                   child: Container(
                     alignment: Alignment.topCenter,
                     height: deviceHeight * 0.1,
