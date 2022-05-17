@@ -29,7 +29,7 @@ class _CalendarState extends State<Calendar> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          ...widget._daysList.map((day) => CalendarDay(day, widget.chooseDay))
+          ...widget._daysList.map((day) => CalendarDay(day, widget.chooseDay),)
         ],
       ),
     );
