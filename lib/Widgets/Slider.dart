@@ -6,7 +6,7 @@ import 'package:medicine_reminder_app/Widgets/Platform_Slider.dart';
 class UserSlider extends StatelessWidget {
   final Function handler;
   final int howManyWeeks;
-  const UserSlider(this.handler, this.howManyWeeks);
+  UserSlider(this.handler, this.howManyWeeks);
 
   @override
   Widget build(BuildContext context) {
