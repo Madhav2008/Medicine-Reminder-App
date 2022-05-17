@@ -30,7 +30,7 @@ class Medicines extends StatelessWidget {
                   ),
                   Text(
                     medi[i].time,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.grey,
                       fontSize: 14.0,
                     ),
