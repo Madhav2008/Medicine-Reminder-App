@@ -28,7 +28,7 @@ class CalendarDayModel {
           month: currentTime.month,
           year: currentTime.year,
           isChecked: false));
-      currentTime = currentTime.add(const Duration(days: 1));
+      currentTime = currentTime.add(const Duration(days: 1),);
     }
     daysList[0].isChecked = true;
     return daysList;
