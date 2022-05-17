@@ -5,7 +5,7 @@ import 'package:medicine_reminder_app/Widgets/Calendar_Day.dart';
 class Calendar extends StatefulWidget {
   final Function chooseDay;
   final List<CalendarDayModel> _daysList;
-  Calendar(this.chooseDay,this._daysList);
+  const Calendar(this.chooseDay,this._daysList);
   @override
   _CalendarState createState() => _CalendarState();
 }
