@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, prefer_const_constructors_in_immutables
+// ignore_for_file: file_names
 
 import "package:flutter/material.dart";
 import 'package:medicine_reminder_app/Models/Calendar_Day_Model.dart';
