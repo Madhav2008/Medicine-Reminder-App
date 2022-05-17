@@ -6,8 +6,8 @@ import 'package:medicine_reminder_app/Models/Medicine_Type.dart';
 class MedicineTypeCard extends StatelessWidget {
   final MedicineType pillType;
   final Function handler;
-  MedicineTypeCard(this.pillType, this.handler);
-  
+  const MedicineTypeCard(this.pillType, this.handler);
+
   @override
   Widget build(BuildContext context) {
     return Row(
