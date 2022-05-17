@@ -268,7 +268,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                   // handler: () async => savePill(),
                   onPressed: () {},
                   color: Theme.of(context).primaryColor,
-                  child: Text(
+                  child: const Text(
                     "Done",
                     style: TextStyle(
                       color: Colors.white,
