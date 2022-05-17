@@ -248,7 +248,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                               )
                             ],
                           ),
-                          color: const Color.fromRGBO(7, 190, 200, 0.1),
+                          color: const Color.fromRGBO(7, 190, 200, 0.1,),
                         ),
                       ),
                     ),
