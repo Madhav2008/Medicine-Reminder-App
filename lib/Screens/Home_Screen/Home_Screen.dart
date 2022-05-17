@@ -134,7 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         ShakeAnimatedWidget(
                           enabled: true,
-                          duration: Duration(milliseconds: 2000),
+                          duration: const Duration(milliseconds: 2000),
                           curve: Curves.linear,
                           shakeAngle: Rotation.deg(z: 30),
                           child: Icon(
