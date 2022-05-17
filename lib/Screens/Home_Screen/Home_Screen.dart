@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, deprecated_member_use
+// ignore_for_file: file_names, deprecated_member_use, avoid_function_literals_in_foreach_calls
 
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animated_widgets/animated_widgets.dart';
