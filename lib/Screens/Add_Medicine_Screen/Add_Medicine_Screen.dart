@@ -315,7 +315,7 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
             context: context,
             initialDate: setDate,
             firstDate: DateTime.now(),
-            lastDate: DateTime.now().add(Duration(days: 100000)))
+            lastDate: DateTime.now().add(const Duration(days: 100000)))
         .then((value) {
       DateTime newDate = DateTime(
           value != null ? value.year : setDate.year,
