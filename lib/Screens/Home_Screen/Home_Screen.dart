@@ -96,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       floatingActionButton: addButton,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      backgroundColor: Color.fromRGBO(
+      backgroundColor: const Color.fromRGBO(
         248,
         248,
         248,
