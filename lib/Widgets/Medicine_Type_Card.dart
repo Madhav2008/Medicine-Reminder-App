@@ -39,13 +39,11 @@ class MedicineTypeCard extends StatelessWidget {
                 const SizedBox(
                   height: 7.0,
                 ),
-                Container(
-                  child: Text(
-                    pillType.name,
-                    style: TextStyle(
-                      color: pillType.isChoose ? Colors.white : Colors.black,
-                      fontWeight: FontWeight.w500,
-                    ),
+                Text(
+                  pillType.name,
+                  style: TextStyle(
+                    color: pillType.isChoose ? Colors.white : Colors.black,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
