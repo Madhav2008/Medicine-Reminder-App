@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, sized_box_for_whitespace
+// ignore_for_file: file_names, sized_box_for_whitespace, deprecated_member_use
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -186,7 +186,6 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                     Expanded(
                       child: Container(
                         height: double.infinity,
-                        // ignore: deprecated_member_use
                         child: FlatButton(
                           onPressed: () => openTimePicker(),
                           child: Row(
