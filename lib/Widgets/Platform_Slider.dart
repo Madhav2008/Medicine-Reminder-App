@@ -32,7 +32,7 @@ class PlatformSlider extends StatelessWidget {
         : Slider(
             value: value.toDouble(),
             onChanged: (value) => handler(value),
-            max: this.max.toDouble(),
+            max: max.toDouble(),
             min: this.min.toDouble(),
             divisions: this.divisions,
             activeColor: this.color,
