@@ -43,9 +43,10 @@ class _CalendarDayState extends State<CalendarDay> {
                 child: Text(
                   widget.day.dayNumber.toString(),
                   style: TextStyle(
-                      color: widget.day.isChecked ? Colors.white : Colors.black,
-                      fontSize: 22.0,
-                      fontWeight: FontWeight.w500,),
+                    color: widget.day.isChecked ? Colors.white : Colors.black,
+                    fontSize: 22.0,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
             ),
