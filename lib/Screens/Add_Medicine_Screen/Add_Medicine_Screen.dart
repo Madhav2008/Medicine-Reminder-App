@@ -233,9 +233,10 @@ class _AddMedicineScreenState extends State<AddMedicineScreen> {
                               Text(
                                 DateFormat("dd.MM").format(this.setDate),
                                 style: TextStyle(
-                                    fontSize: 32.0,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500,),
+                                  fontSize: 32.0,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w500,
+                                ),
                               ),
                               SizedBox(width: 10),
                               Icon(
