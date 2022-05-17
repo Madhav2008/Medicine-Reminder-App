@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   height: 200,
                                 ),
                                 WavyAnimatedTextKit(
-                                  textStyle: TextStyle(
+                                  textStyle: const TextStyle(
                                     fontSize: 32.0,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black,
