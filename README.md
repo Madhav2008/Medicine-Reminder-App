@@ -10,5 +10,6 @@ OnBoarding Screen | Loading Screen | No Data Found
 
 Add Medicine | User Profile Page
 :-------------------------:|:-------------------------:
+
 ![](/snapshots/snapshot4.jpeg)|![](/snapshots/snapshot5.jpeg)|
 
