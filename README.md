@@ -4,7 +4,7 @@
 
 Home               |  Explore               | Notifications               
 :-------------------------:|:-------------------------:|:-------------------------:
-![](../snapshots/snapshot2.jpeg)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
+![](../assets/snapshot2.jpeg)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
 
 Library         |  User Profile Page
 :-------------------------:|:-------------------------:
