@@ -8,5 +8,5 @@ OnBoarding Screen              |  Loading Screen               | No Data Found S
 
 Add Medicine Screen        |  User Profile Page
 :-------------------------:|:-------------------------:
-![Add_Medicine](https://user-images.githubusercontent.com/72864817/169653725-9adccc0d-d8a8-4f9b-9fec-af41312890aa.png)|![](/snapshots/snapshot5.jpeg)|
+![Add_Medicine](https://user-images.githubusercontent.com/72864817/169653725-9adccc0d-d8a8-4f9b-9fec-af41312890aa.png)|!
 ![No_Data_Found](https://user-images.githubusercontent.com/72864817/169653939-72d6bf17-9e6d-488f-a33b-f37d966de742.png)
