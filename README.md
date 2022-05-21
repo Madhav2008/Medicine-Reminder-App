@@ -4,7 +4,7 @@
 
 Home               |  Explore               | Notifications               
 :-------------------------:|:-------------------------:|:-------------------------:
-![](../assets/Onboarding.jpeg)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
+![](../assets/Onboarding.png)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
 
 Library         |  User Profile Page
 :-------------------------:|:-------------------------:
