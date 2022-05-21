@@ -8,7 +8,7 @@ OnBoarding Screen | Loading Screen | No Data Found
 |![Loading](https://user-images.githubusercontent.com/72864817/169653190-5fc926d8-c464-422e-888d-15835ae90e91.png)
 |![](/snapshots/snapshot3.jpeg)
 
-Add Medicine |User Profile Page
+Add Medicine | User Profile Page
 :-------------------------:|:-------------------------:
 ![](/snapshots/snapshot4.jpeg)|![](/snapshots/snapshot5.jpeg)|
 
