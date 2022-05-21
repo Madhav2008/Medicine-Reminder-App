@@ -12,5 +12,4 @@ Library         |  User Profile Page
 :-------------------------:|:-------------------------:
 ![](/snapshots/snapshot4.jpeg)|![](/snapshots/snapshot5.jpeg)|
 =======
->>>>>>> a903835521d980272210dad53b6c5fa1bc56977e
 
