@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _daysList = _days.getCurrentDays();
     Future.delayed(
       const Duration(
-        seconds: 3,
+        seconds: 20,
       ),
       () {
         setState(() {
