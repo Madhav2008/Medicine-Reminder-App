@@ -5,7 +5,7 @@
 
 OnBoarding Screen              |  Explore               | Notifications               
 :-------------------------:|:-------------------------:|:-------------------------:
-![](../assets/Onboarding.png)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
+![](https://user-images.githubusercontent.com/72864817/169650141-fcfdf90f-5c6a-4dd1-ba9e-491edea9b621.png)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
 
 Library         |  User Profile Page
 :-------------------------:|:-------------------------:
