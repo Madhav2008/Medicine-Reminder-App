@@ -11,5 +11,4 @@ OnBoarding Screen              |  Explore               | Notifications
 Library         |  User Profile Page
 :-------------------------:|:-------------------------:
 ![](/snapshots/snapshot4.jpeg)|![](/snapshots/snapshot5.jpeg)|
-=======
 
